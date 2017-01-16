@@ -1,18 +1,9 @@
-from os import listdir
 import json
+
+from config import config
+from util import docs_from_dir
 from util import lines_from_file
 from util import words_from_text
-
-
-DOC_DIR = '../docs-bosh/'
-DOC_EXT = '.html.md.erb'
-OUTPUT_FILE = 'index.json'
-
-
-def docs_from_dir(root=DOC_DIR, ext=DOC_EXT):
-    for file in listdir(root):
-        if file.endswith(ext):
-            yield DOC_DIR + file
 
 
 def inferTitle(doc_lines):
@@ -42,7 +33,7 @@ def inferTitle(doc_lines):
 def buildIndex(contentFilter=inferTitle):
     index = {}
     for doc in docs_from_dir():
-        doc_lines = lines_from_file(doc)
+        doc_lines = lines_from_file(config['DOC_DIR'] + doc)
         contents = contentFilter(doc_lines)
         for word in words_from_text(contents):
             if word not in index:
@@ -54,5 +45,5 @@ def buildIndex(contentFilter=inferTitle):
 
 if __name__ == '__main__':
     index = buildIndex()
-    with open(OUTPUT_FILE, 'w') as f:
+    with open(config['OUTPUT_FILE'], 'w') as f:
         json.dump(index, f, sort_keys=True, indent=2)
