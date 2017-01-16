@@ -1,38 +1,50 @@
 from os import listdir
 import json
+from util import lines_from_file
+from util import words_from_text
 
 
 DOC_DIR = '../docs-bosh/'
 DOC_EXT = '.html.md.erb'
 OUTPUT_FILE = 'index.json'
-STOPS_FILE = '../data/stop_words.txt'
-STOP_WORDS = [line.strip() for line in open(STOPS_FILE)]
 
 
-def getDocs(root=DOC_DIR, ext=DOC_EXT):
+def docs_from_dir(root=DOC_DIR, ext=DOC_EXT):
     for file in listdir(root):
         if file.endswith(ext):
-            yield file
+            yield DOC_DIR + file
 
 
-def getTitle(doc, root=DOC_DIR):
-    with open(DOC_DIR + doc) as f:
-        for i, line in enumerate(f):
-            if i == 1:
-                return [w.strip() for w in line.lower().split(':')][1]
+def inferTitle(doc_lines):
+    """Given lines from a document, infer its title.
+
+    Assumes the lines are pairs (i, line) where i
+    is a 0-indexed indicator of the line number and
+    line is the text of that line.
+
+    Assumes titles are on the second line (i = 1) and
+    that they contain a unique colon (':') to the right
+    of which the title is located. Example:
+
+        title: This is an example title
+
+    Returns the title (string).
+    """
+    for i, line in doc_lines:
+        if i == 1:
+            try:
+                title = line.lower().split(':')[1]
+                return title.strip()
+            except IndexError:
+                raise ValueError('Document has the wrong format.')
 
 
-def getWords(text, stops=STOP_WORDS):
-    for word in text.split():
-        if word not in STOP_WORDS:
-            yield word
-
-
-def buildIndex(contentFilter=getTitle):
+def buildIndex(contentFilter=inferTitle):
     index = {}
-    for doc in getDocs():
-        contents = contentFilter(doc)
-        for word in getWords(contents):
+    for doc in docs_from_dir():
+        doc_lines = lines_from_file(doc)
+        contents = contentFilter(doc_lines)
+        for word in words_from_text(contents):
             if word not in index:
                 index[word] = []
             if doc not in index[word]:
