@@ -1,12 +1,11 @@
 from os import listdir
-
-from collections import defaultdict
-import pprint
+import json
 
 
-DOC_DIR = 'docs-bosh/'
+DOC_DIR = '../docs-bosh/'
 DOC_EXT = '.html.md.erb'
-STOPS_FILE = 'data/stop_words.txt'
+OUTPUT_FILE = 'index.json'
+STOPS_FILE = '../data/stop_words.txt'
 STOP_WORDS = [line.strip() for line in open(STOPS_FILE)]
 
 
@@ -29,15 +28,19 @@ def getWords(text, stops=STOP_WORDS):
             yield word
 
 
-def buildIndex():
-    index = defaultdict(set)
+def buildIndex(contentFilter=getTitle):
+    index = {}
     for doc in getDocs():
-        for word in getWords(getTitle(doc)):
-            index[doc].add(word)
+        contents = contentFilter(doc)
+        for word in getWords(contents):
+            if word not in index:
+                index[word] = []
+            if doc not in index[word]:
+                index[word].append(doc)
     return index
 
 
 if __name__ == '__main__':
     index = buildIndex()
-    pp = pprint.PrettyPrinter(indent=2)
-    pp.pprint(index)
+    with open(OUTPUT_FILE, 'w') as f:
+        json.dump(index, f, sort_keys=True, indent=2)

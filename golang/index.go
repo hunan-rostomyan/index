@@ -1,14 +1,14 @@
 package main
 
 import (
-	"fmt"
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"strings"
 )
 
-const DOCS_DIR = "docs-bosh/"
+const DOCS_DIR = "../docs-bosh/"
 const TITLE_SEPARATOR = ": "
 
 func inferTitle(docName string) (string, error) {
