@@ -29,12 +29,15 @@ def getWords(text, stops=STOP_WORDS):
             yield word
 
 
-if __name__ == '__main__':
+def buildIndex():
     index = defaultdict(set)
-
     for doc in getDocs():
         for word in getWords(getTitle(doc)):
             index[doc].add(word)
+    return index
 
+
+if __name__ == '__main__':
+    index = buildIndex()
     pp = pprint.PrettyPrinter(indent=2)
     pp.pprint(index)
