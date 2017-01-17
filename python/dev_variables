@@ -1,0 +1,2 @@
+export SECRET_KEY='devkeynotactuallysecret'
+export DOCS_URL='https://github.com/cloudfoundry/docs-bosh/blob/master/'

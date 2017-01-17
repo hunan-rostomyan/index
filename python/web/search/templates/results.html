@@ -1,0 +1,16 @@
+<div>You searched for: <b>"{{ query }}"</b>.</div>
+
+<div>
+{% if docs %}
+	Relevant documents:
+	<ul>
+	{% for key, docs in docs %}
+		{% for doc in docs %}
+			<li>{{ key }} => <a href="{{ URL.DOCS }}/{{ doc }}">{{ doc }}</a></li>
+		{% endfor %}
+	{% endfor %}
+	</ul>
+{% else %}
+	No relevant documents found.
+{% endif %}
+</div>
