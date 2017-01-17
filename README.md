@@ -15,6 +15,7 @@ This will index the documentation, creating an *index.json* file in the current 
 import json
 
 index = json.load(open('index.json'))
+
 assert 'vcloud' in index
 ```
 
@@ -35,30 +36,14 @@ Next we need to configure some essential variables for the app:
 We're now ready to launch the app:
 
 1. `cd web` (you're inside the web root)
-2. `export PORT=8005`
-3. `./manage.py runserver $PORT` (if you get an error about ports, try (2) with a different port)
+2. `./manage.py runserver 8005` (if you get an error about ports, change `8005` to something else)
 
-If all went well, you should now navigate to [http://localhost:[PORT]](http://localhost:[PORT]) to play with the search engine.
+If all went well, you should now navigate to [http://localhost:PORT](http://localhost:PORT) to play with the search engine.
 
-Change the query following `search/` in the URL to find different matching documents. Here, for example, we search for "cloud":
-
-* `http://localhost:[PORT]/search/cloud`,
-
-which returns a list of hyperlinks to the relevant documents in the specified repository:
-
-```
-You searched for: "cloud".
-
-Relevant documents:
-  cloud => cck.html.md.erb
-  cloud => cloud-config.html.md.erb
-  vcloud => deploy_microbosh_to_vcloud.html.md.erb
-  vcloud => init-vcloud.html.md.erb
-  vcloud => vcloud-cpi.html.md.erb
-```
+Change the query following `search/` in the URL to find different matching documents.
 
 
-### Log
+#### Log
 * 01/15/17
   - started project in Golang
   - rewrote initial project in Python
@@ -69,5 +54,5 @@ Relevant documents:
   - introduced a search client
 
 
-### Sources
+#### Sources
 * The set of stop words is from [Kevin Bougé](https://sites.google.com/site/kevinbouge/stopwords-lists).
