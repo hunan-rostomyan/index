@@ -1,5 +1,5 @@
 INDEX_FILE = index.json
-PYTHON_BIN = index.py
+PYTHON_BIN = main.py
 
 build_index:
 	python3 $(PYTHON_BIN)

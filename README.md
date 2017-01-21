@@ -67,7 +67,13 @@ Relevant documents:
   - introduced punctuation
   - finished a basic prototype
   - introduced a search client
-
+* 01/20/17
+  - introduced LocalRepository, Document
+  - tokenize entire contents of docs, not just titles
+  - store positional info on tokens
+    - useful for efficient phrasal queries
+    - supports induction of titles (line_num == 2)
+  - decided not to do [stemming](https://en.wikipedia.org/wiki/Stemming)
 
 ### Sources
 * The set of stop words is from [Kevin Bougé](https://sites.google.com/site/kevinbouge/stopwords-lists).
