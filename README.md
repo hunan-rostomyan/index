@@ -8,21 +8,16 @@ Offline indexing for documentation to make it searchable.
 3. `cd python`
 4. `make` (assumes you have `python3` installed)
 
-This will index the documentation, creating an *index.json* file in the current directory. You can inspect the contents of this dictionary to make sure nothing blew up:
+This will index the documentation, creating `index_*.json` files in the current directory.
 
-
-```python
-import json
-
-index = json.load(open('index.json'))
-assert 'vcloud' in index
-```
 
 ### Searching
 
-Now that we have the documentation index (contained in *index.json*), we can feed it into a little "search engine" to test things out. Let's copy the index into a place where the web app can find it and then run the app to make some queries.
+Now that we have the indexes, we can feed it into a search engine to test things out. Let's copy the indexes into a place where the web app can find it.
 
-* `cp index.json web/search/data/` (otherwise you'll get an `IOError` later)
+```bash
+$ make sync
+```
 
 Now that the data is copied, we prepare and launch the web app. First, we setup the python libraries needed to run the app:
 
@@ -34,28 +29,18 @@ Next we need to configure some essential variables for the app:
 
 We're now ready to launch the app:
 
-1. `cd web` (you're inside the web root)
-2. `export PORT=8005`
-3. `./manage.py runserver $PORT` (if you get an error about ports, try (2) with a different port)
-
-If all went well, you should now navigate to [http://localhost:[PORT]](http://localhost:[PORT]) to play with the search engine.
-
-Change the query following `search/` in the URL to find different matching documents. Here, for example, we search for "cloud":
-
-* `http://localhost:[PORT]/search/cloud`,
-
-which returns a list of hyperlinks to the relevant documents in the specified repository:
-
+```bash
+$ make run
 ```
-You searched for: "cloud".
 
-Relevant documents:
-  cloud => cck.html.md.erb
-  cloud => cloud-config.html.md.erb
-  vcloud => deploy_microbosh_to_vcloud.html.md.erb
-  vcloud => init-vcloud.html.md.erb
-  vcloud => vcloud-cpi.html.md.erb
-```
+If you get an error about ports, edit *Makefile* and change `8001` to something else. If all went well, you should now navigate to [http://localhost:8001](http://localhost:8001) to play with the search engine.
+
+Currently two types of search are possible:
+
+1. search/title/[query]
+2. search/content/[query]
+
+As the names suggest, the first matches documents based on title, the second based on the entire contents.
 
 
 ### Log
@@ -74,6 +59,12 @@ Relevant documents:
     - useful for efficient phrasal queries
     - supports induction of titles (line_num == 2)
   - decided not to do [stemming](https://en.wikipedia.org/wiki/Stemming)
+* 01/21/17
+  - introduced TitleIndexer, ContextIndexer
+  - added options to search by title or by content in the web app
+  - refactored `repo` module
+  - extracted dict to json routine into a utility function
+  
 
 ### Sources
 * The set of stop words is from [Kevin Bougé](https://sites.google.com/site/kevinbouge/stopwords-lists).

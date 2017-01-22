@@ -8,10 +8,13 @@
   "addons": [
     "addons-common.html.md.erb"
   ],
-  "agentcpi": [
+  "affinity": [
+    "vm-anti-affinity.html.md.erb"
+  ],
+  "agent": [
     "agent-cpi-interactions.html.md.erb"
   ],
-  "antiaffinity": [
+  "anti": [
     "vm-anti-affinity.html.md.erb"
   ],
   "api": [
@@ -74,6 +77,8 @@
     "init-softlayer.html.md.erb",
     "init-vcloud.html.md.erb",
     "init-vsphere.html.md.erb",
+    "install-bosh-init.html.md.erb",
+    "migrate-to-bosh-init.html.md.erb",
     "packages.html.md.erb",
     "problems.html.md.erb",
     "sample-manifest.html.md.erb",
@@ -81,13 +86,9 @@
     "setup-openstack.html.md.erb",
     "setup-vsphere.html.md.erb",
     "understanding-bosh.html.md.erb",
+    "using-bosh-init.html.md.erb",
     "vm-struct.html.md.erb",
     "workflow.html.md.erb"
-  ],
-  "boshinit": [
-    "install-bosh-init.html.md.erb",
-    "migrate-to-bosh-init.html.md.erb",
-    "using-bosh-init.html.md.erb"
   ],
   "building": [
     "build-cpi.html.md.erb",
@@ -149,6 +150,7 @@
     "director-configure-db.html.md.erb"
   ],
   "cpi": [
+    "agent-cpi-interactions.html.md.erb",
     "aws-cpi.html.md.erb",
     "azure-cpi.html.md.erb",
     "build-cpi.html.md.erb",
@@ -177,6 +179,9 @@
   ],
   "datastore": [
     "vsphere-migrate-datastores.html.md.erb"
+  ],
+  "deploy": [
+    "post-deploy.html.md.erb"
   ],
   "deploying": [
     "deploy-microbosh-to-aws.html.md.erb",
@@ -274,6 +279,9 @@
   "flushing": [
     "flush-arp.html.md.erb"
   ],
+  "garden": [
+    "warden-cpi.html.md.erb"
+  ],
   "google": [
     "google-cpi.html.md.erb"
   ],
@@ -286,10 +294,13 @@
   "health": [
     "hm-config.html.md.erb"
   ],
+  "homed": [
+    "openstack-multiple-networks.html.md.erb"
+  ],
   "host": [
     "vsphere-esxi-host-failure.html.md.erb"
   ],
-  "humanreadable": [
+  "human": [
     "openstack-human-readable-vm-names.html.md.erb"
   ],
   "iam": [
@@ -298,6 +309,11 @@
   ],
   "index": [
     "index.html.md.erb"
+  ],
+  "init": [
+    "install-bosh-init.html.md.erb",
+    "migrate-to-bosh-init.html.md.erb",
+    "using-bosh-init.html.md.erb"
   ],
   "initializing": [
     "init-aws.html.md.erb",
@@ -401,6 +417,7 @@
   ],
   "migrating": [
     "migrate-to-bosh-init.html.md.erb",
+    "migrated-from.html.md.erb",
     "vsphere-migrate-datastores.html.md.erb"
   ],
   "monit": [
@@ -413,7 +430,7 @@
     "monitoring.html.md.erb",
     "vm-monit.html.md.erb"
   ],
-  "multihomed": [
+  "multi": [
     "openstack-multiple-networks.html.md.erb"
   ],
   "names": [
@@ -422,10 +439,13 @@
   "network": [
     "vsphere-network-partition.html.md.erb"
   ],
+  "networking": [
+    "openstack-nova-networking.html.md.erb"
+  ],
   "networks": [
     "networks.html.md.erb"
   ],
-  "novanetworking": [
+  "nova": [
     "openstack-nova-networking.html.md.erb"
   ],
   "openstack": [
@@ -455,16 +475,14 @@
   "plugin": [
     "migrate-to-bosh-init.html.md.erb"
   ],
-  "postdeploy": [
-    "post-deploy.html.md.erb"
+  "post": [
+    "post-deploy.html.md.erb",
+    "post-start.html.md.erb"
   ],
   "postgres": [
     "director-configure-db.html.md.erb"
   ],
-  "poststart": [
-    "post-start.html.md.erb"
-  ],
-  "prestart": [
+  "pre": [
     "pre-start.html.md.erb"
   ],
   "principles": [
@@ -487,6 +505,9 @@
   ],
   "rackhd": [
     "rackhd-cpi.html.md.erb"
+  ],
+  "readable": [
+    "openstack-human-readable-vm-names.html.md.erb"
   ],
   "recent": [
     "recent.html.md.erb"
@@ -512,7 +533,7 @@
   "removal": [
     "remove-dev-tools.html.md.erb"
   ],
-  "renamingmigrating": [
+  "renaming": [
     "migrated-from.html.md.erb"
   ],
   "repair": [
@@ -550,14 +571,14 @@
     "post-start.html.md.erb",
     "pre-start.html.md.erb"
   ],
-  "selfsigned": [
-    "openstack-self-signed-endpoints.html.md.erb"
-  ],
   "setting": [
     "s3-release-blobstore.html.md.erb",
     "setup-aws.html.md.erb",
     "setup-openstack.html.md.erb",
     "setup-vsphere.html.md.erb"
+  ],
+  "signed": [
+    "openstack-self-signed-endpoints.html.md.erb"
   ],
   "snapshotting": [
     "snapshots.html.md.erb"
@@ -575,6 +596,10 @@
   "ssl": [
     "director-certs.html.md.erb"
   ],
+  "start": [
+    "post-start.html.md.erb",
+    "pre-start.html.md.erb"
+  ],
   "stemcell": [
     "build-stemcell.html.md.erb",
     "stemcell.html.md.erb"
@@ -584,7 +609,7 @@
     "openstack-light-stemcells.html.md.erb",
     "uploading-stemcells.html.md.erb"
   ],
-  "stepbystep": [
+  "step": [
     "deploying-step-by-step.html.md.erb"
   ],
   "storage": [
@@ -676,7 +701,7 @@
     "vsphere-ha.html.md.erb",
     "vsphere-network-partition.html.md.erb"
   ],
-  "wardengarden": [
+  "warden": [
     "warden-cpi.html.md.erb"
   ],
   "workflow": [

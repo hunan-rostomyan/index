@@ -8,12 +8,31 @@ from web.settings import get_data
 
 
 def home(request):
-	return redirect('search', query='aws cloud upload')
+	return redirect('search-title', query='aws cloud upload')
 
 
-def search(request, query):
+def search_title(request, query):
 	terms = [t.strip() for t in query.strip().split()]
-	index = json.load(open(get_data('index.json')))
+	index = json.load(open(get_data('index_title.json')))
+
+	docs = []
+	for key, values in index.items():
+		if any(term in key for term in terms):
+			docs.append((key, values))
+
+	context = {
+		'query': query,
+		'docs': docs,
+		'URL': {
+			'DOCS': DOCS_URL,
+		}
+	}
+	return render(request, 'results.html', context)
+
+
+def search_content(request, query):
+	terms = [t.strip() for t in query.strip().split()]
+	index = json.load(open(get_data('index_content.json')))
 
 	docs = []
 	for key, values in index.items():

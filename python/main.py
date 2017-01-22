@@ -1,12 +1,15 @@
-import json
-
-from core.indexer import Indexer
+from core.indexer import ContentIndexer
+from core.indexer import TitleIndexer
 from core.repo import LocalRepository
+from util import dict_to_json
 
 
 if __name__ == '__main__':
     repo = LocalRepository('../docs-bosh/')
-    documents = list(repo.collect('(.*).html.md.erb'))
-    indexer = Indexer(repo)
-    with open('index.json', 'w') as f:
-        json.dump(indexer.index, f, sort_keys=True, indent=2)
+    repo.collect('(.*).html.md.erb')
+
+    index_title = TitleIndexer(repo).index()
+    dict_to_json(index_title, 'index_title.json')
+
+    index_content = ContentIndexer(repo).index()
+    dict_to_json(index_content, 'index_content.json')
