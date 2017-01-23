@@ -3,6 +3,7 @@ import json
 from django.shortcuts import redirect
 from django.shortcuts import render
 
+from search.config import DOCS_EXT
 from search.config import DOCS_URL
 from web.settings import get_data
 
@@ -25,7 +26,8 @@ def search_title(request, query):
 		'docs': docs,
 		'URL': {
 			'DOCS': DOCS_URL,
-		}
+		},
+		'DOCS_EXT': DOCS_EXT,
 	}
 	return render(request, 'results.html', context)
 
@@ -44,6 +46,7 @@ def search_content(request, query):
 		'docs': docs,
 		'URL': {
 			'DOCS': DOCS_URL,
-		}
+		},
+		'DOCS_EXT': DOCS_EXT,
 	}
 	return render(request, 'results.html', context)

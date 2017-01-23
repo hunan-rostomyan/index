@@ -6,7 +6,7 @@
 	<ul>
 	{% for key, docs in docs %}
 		{% for doc in docs %}
-			<li>{{ key }} => <a href="{{ URL.DOCS }}/{{ doc }}">{{ doc }}</a></li>
+			<li>{{ key }} => <a href="{{ URL.DOCS }}/{{ doc }}{{ DOCS_EXT }}">{{ doc }}</a></li>
 		{% endfor %}
 	{% endfor %}
 	</ul>

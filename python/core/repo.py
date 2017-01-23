@@ -16,7 +16,9 @@ class Repository(object):
         pattern = re.compile(pattern)
         ordinal = 0
         for filename, content in self.crawl(self.root):
-            if pattern.match(filename):
+            match = pattern.match(filename)
+            if match:
+                filename = match.groups(0)[0]
                 doc = Document(ordinal, filename, content)
                 self.documents.append(doc)
                 self.doc_names[ordinal] = filename

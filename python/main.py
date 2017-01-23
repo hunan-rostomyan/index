@@ -1,12 +1,13 @@
 from core.indexer import ContentIndexer
 from core.indexer import TitleIndexer
+from core.pattern import endswith
 from core.repo import LocalRepository
 from util import dict_to_json
 
 
 if __name__ == '__main__':
     repo = LocalRepository('../docs-bosh/')
-    repo.collect('(.*).html.md.erb')
+    documents = repo.collect(endswith('.html.md.erb'))
 
     index_title = TitleIndexer(repo).index()
     dict_to_json(index_title, 'index_title.json')

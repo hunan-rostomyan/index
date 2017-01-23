@@ -1,714 +1,714 @@
 {
   "access": [
-    "director-access-events.html.md.erb"
+    "director-access-events"
   ],
   "additions": [
-    "recent.html.md.erb"
+    "recent"
   ],
   "addons": [
-    "addons-common.html.md.erb"
+    "addons-common"
   ],
   "affinity": [
-    "vm-anti-affinity.html.md.erb"
+    "vm-anti-affinity"
   ],
   "agent": [
-    "agent-cpi-interactions.html.md.erb"
+    "agent-cpi-interactions"
   ],
   "anti": [
-    "vm-anti-affinity.html.md.erb"
+    "vm-anti-affinity"
   ],
   "api": [
-    "cpi-api-v1.html.md.erb",
-    "director-api-v1.html.md.erb",
-    "openstack-keystonev2.html.md.erb"
+    "cpi-api-v1",
+    "director-api-v1",
+    "openstack-keystonev2"
   ],
   "arp": [
-    "flush-arp.html.md.erb"
+    "flush-arp"
   ],
   "automatic": [
-    "resurrector.html.md.erb"
+    "resurrector"
   ],
   "availability": [
-    "azs.html.md.erb"
+    "azs"
   ],
   "aws": [
-    "aws-cpi.html.md.erb",
-    "deploy-microbosh-to-aws.html.md.erb",
-    "init-aws.html.md.erb",
-    "setup-aws.html.md.erb"
+    "aws-cpi",
+    "deploy-microbosh-to-aws",
+    "init-aws",
+    "setup-aws"
   ],
   "azs": [
-    "azs.html.md.erb"
+    "azs"
   ],
   "azure": [
-    "azure-cpi.html.md.erb",
-    "azure-resources.html.md.erb",
-    "init-azure.html.md.erb"
+    "azure-cpi",
+    "azure-resources",
+    "init-azure"
   ],
   "backup": [
-    "director-backup.html.md.erb"
+    "director-backup"
   ],
   "basic": [
-    "basic-workflow.html.md.erb",
-    "workflow.html.md.erb"
+    "basic-workflow",
+    "workflow"
   ],
   "basics": [
-    "deployment-basics.html.md.erb"
+    "deployment-basics"
   ],
   "blobstore": [
-    "director-configure-blobstore.html.md.erb",
-    "s3-release-blobstore.html.md.erb"
+    "director-configure-blobstore",
+    "s3-release-blobstore"
   ],
   "bootstrapping": [
-    "bootstrap.html.md.erb"
+    "bootstrap"
   ],
   "bosh": [
-    "about.html.md.erb",
-    "bosh-cli.html.md.erb",
-    "bosh-components.html.md.erb",
-    "bosh-lite.html.md.erb",
-    "deploy-with-bosh.html.md.erb",
-    "design.html.md.erb",
-    "director-backup.html.md.erb",
-    "disaster-recovery.html.md.erb",
-    "init-aws.html.md.erb",
-    "init-azure.html.md.erb",
-    "init-openstack.html.md.erb",
-    "init-softlayer.html.md.erb",
-    "init-vcloud.html.md.erb",
-    "init-vsphere.html.md.erb",
-    "install-bosh-init.html.md.erb",
-    "migrate-to-bosh-init.html.md.erb",
-    "packages.html.md.erb",
-    "problems.html.md.erb",
-    "sample-manifest.html.md.erb",
-    "setup-aws.html.md.erb",
-    "setup-openstack.html.md.erb",
-    "setup-vsphere.html.md.erb",
-    "understanding-bosh.html.md.erb",
-    "using-bosh-init.html.md.erb",
-    "vm-struct.html.md.erb",
-    "workflow.html.md.erb"
+    "about",
+    "bosh-cli",
+    "bosh-components",
+    "bosh-lite",
+    "deploy-with-bosh",
+    "design",
+    "director-backup",
+    "disaster-recovery",
+    "init-aws",
+    "init-azure",
+    "init-openstack",
+    "init-softlayer",
+    "init-vcloud",
+    "init-vsphere",
+    "install-bosh-init",
+    "migrate-to-bosh-init",
+    "packages",
+    "problems",
+    "sample-manifest",
+    "setup-aws",
+    "setup-openstack",
+    "setup-vsphere",
+    "understanding-bosh",
+    "using-bosh-init",
+    "vm-struct",
+    "workflow"
   ],
   "building": [
-    "build-cpi.html.md.erb",
-    "build-stemcell.html.md.erb"
+    "build-cpi",
+    "build-stemcell"
   ],
   "certificate": [
-    "director-certs.html.md.erb"
+    "director-certs"
   ],
   "certificates": [
-    "trusted-certs.html.md.erb"
+    "trusted-certs"
   ],
   "check": [
-    "cck.html.md.erb"
+    "cck"
   ],
   "class": [
-    "azs.html.md.erb"
+    "azs"
   ],
   "cli": [
-    "cli-v2.html.md.erb",
-    "migrate-to-bosh-init.html.md.erb",
-    "sysadmin-commands.html.md.erb"
+    "cli-v2",
+    "migrate-to-bosh-init",
+    "sysadmin-commands"
   ],
   "cloud": [
-    "cck.html.md.erb",
-    "cloud-config.html.md.erb"
+    "cck",
+    "cloud-config"
   ],
   "command": [
-    "bosh-cli.html.md.erb"
+    "bosh-cli"
   ],
   "commands": [
-    "sysadmin-commands.html.md.erb"
+    "sysadmin-commands"
   ],
   "common": [
-    "addons-common.html.md.erb"
+    "addons-common"
   ],
   "compiled": [
-    "compiled-releases.html.md.erb"
+    "compiled-releases"
   ],
   "compilers": [
-    "remove-dev-tools.html.md.erb"
+    "remove-dev-tools"
   ],
   "components": [
-    "bosh-components.html.md.erb"
+    "bosh-components"
   ],
   "config": [
-    "cloud-config.html.md.erb",
-    "runtime-config.html.md.erb"
+    "cloud-config",
+    "runtime-config"
   ],
   "configuration": [
-    "director-certs.html.md.erb",
-    "openstack-registry.html.md.erb",
-    "vm-config.html.md.erb"
+    "director-certs",
+    "openstack-registry",
+    "vm-config"
   ],
   "configuring": [
-    "hm-config.html.md.erb"
+    "hm-config"
   ],
   "connecting": [
-    "director-configure-blobstore.html.md.erb",
-    "director-configure-db.html.md.erb"
+    "director-configure-blobstore",
+    "director-configure-db"
   ],
   "cpi": [
-    "agent-cpi-interactions.html.md.erb",
-    "aws-cpi.html.md.erb",
-    "azure-cpi.html.md.erb",
-    "build-cpi.html.md.erb",
-    "cpi-api-v1.html.md.erb",
-    "google-cpi.html.md.erb",
-    "openstack-cpi.html.md.erb",
-    "rackhd-cpi.html.md.erb",
-    "softlayer-cpi.html.md.erb",
-    "vcloud-cpi.html.md.erb",
-    "virtualbox-cpi.html.md.erb",
-    "vsphere-cpi.html.md.erb",
-    "warden-cpi.html.md.erb"
+    "agent-cpi-interactions",
+    "aws-cpi",
+    "azure-cpi",
+    "build-cpi",
+    "cpi-api-v1",
+    "google-cpi",
+    "openstack-cpi",
+    "rackhd-cpi",
+    "softlayer-cpi",
+    "vcloud-cpi",
+    "virtualbox-cpi",
+    "vsphere-cpi",
+    "warden-cpi"
   ],
   "creating": [
-    "aws-iam-users.html.md.erb",
-    "azure-resources.html.md.erb",
-    "create-micro-manifest.html.md.erb",
-    "create-release.html.md.erb",
-    "packages.html.md.erb"
+    "aws-iam-users",
+    "azure-resources",
+    "create-micro-manifest",
+    "create-release",
+    "packages"
   ],
   "customizing": [
-    "persistent-disk-fs.html.md.erb"
+    "persistent-disk-fs"
   ],
   "database": [
-    "director-configure-db.html.md.erb"
+    "director-configure-db"
   ],
   "datastore": [
-    "vsphere-migrate-datastores.html.md.erb"
+    "vsphere-migrate-datastores"
   ],
   "deploy": [
-    "post-deploy.html.md.erb"
+    "post-deploy"
   ],
   "deploying": [
-    "deploy-microbosh-to-aws.html.md.erb",
-    "deploy-microbosh-to-openstack.html.md.erb",
-    "deploy-microbosh-to-vsphere.html.md.erb",
-    "deploy-microbosh.html.md.erb",
-    "deploy-with-bosh.html.md.erb",
-    "deploy_microbosh_to_vcloud.html.md.erb",
-    "deploying-step-by-step.html.md.erb",
-    "deploying.html.md.erb"
+    "deploy-microbosh-to-aws",
+    "deploy-microbosh-to-openstack",
+    "deploy-microbosh-to-vsphere",
+    "deploy-microbosh",
+    "deploy-with-bosh",
+    "deploy_microbosh_to_vcloud",
+    "deploying-step-by-step",
+    "deploying"
   ],
   "deployment": [
-    "create-micro-manifest.html.md.erb",
-    "deployment-basics.html.md.erb",
-    "deployment-manifest.html.md.erb",
-    "deployment.html.md.erb",
-    "director-backup.html.md.erb",
-    "sample-manifest.html.md.erb"
+    "create-micro-manifest",
+    "deployment-basics",
+    "deployment-manifest",
+    "deployment",
+    "director-backup",
+    "sample-manifest"
   ],
   "design": [
-    "design.html.md.erb"
+    "design"
   ],
   "development": [
-    "remove-dev-tools.html.md.erb"
+    "remove-dev-tools"
   ],
   "director": [
-    "director-api-v1.html.md.erb",
-    "director-backup.html.md.erb",
-    "director-certs.html.md.erb",
-    "director-configure-blobstore.html.md.erb",
-    "director-configure-db.html.md.erb",
-    "director-tasks.html.md.erb",
-    "director-users.html.md.erb"
+    "director-api-v1",
+    "director-backup",
+    "director-certs",
+    "director-configure-blobstore",
+    "director-configure-db",
+    "director-tasks",
+    "director-users"
   ],
   "disaster": [
-    "disaster-recovery.html.md.erb"
+    "disaster-recovery"
   ],
   "disk": [
-    "persistent-disk-fs.html.md.erb",
-    "snapshots.html.md.erb"
+    "persistent-disk-fs",
+    "snapshots"
   ],
   "disks": [
-    "persistent-disks.html.md.erb"
+    "persistent-disks"
   ],
   "distributed": [
-    "deploy-with-bosh.html.md.erb"
+    "deploy-with-bosh"
   ],
   "drain": [
-    "drain.html.md.erb"
+    "drain"
   ],
   "drs": [
-    "vsphere-vmotion-support.html.md.erb"
+    "vsphere-vmotion-support"
   ],
   "endpoints": [
-    "openstack-self-signed-endpoints.html.md.erb"
+    "openstack-self-signed-endpoints"
   ],
   "environment": [
-    "bootstrap.html.md.erb",
-    "init-aws.html.md.erb",
-    "init-azure.html.md.erb",
-    "init-openstack.html.md.erb",
-    "init-softlayer.html.md.erb",
-    "init-vcloud.html.md.erb",
-    "init-vsphere.html.md.erb",
-    "init.html.md.erb"
+    "bootstrap",
+    "init-aws",
+    "init-azure",
+    "init-openstack",
+    "init-softlayer",
+    "init-vcloud",
+    "init-vsphere",
+    "init"
   ],
   "esxi": [
-    "vsphere-esxi-host-failure.html.md.erb"
+    "vsphere-esxi-host-failure"
   ],
   "event": [
-    "director-access-events.html.md.erb"
+    "director-access-events"
   ],
   "events": [
-    "events.html.md.erb"
+    "events"
   ],
   "explicit": [
-    "flush-arp.html.md.erb"
+    "flush-arp"
   ],
   "extended": [
-    "openstack-registry.html.md.erb"
+    "openstack-registry"
   ],
   "external": [
-    "director-configure-blobstore.html.md.erb",
-    "director-configure-db.html.md.erb"
+    "director-configure-blobstore",
+    "director-configure-db"
   ],
   "failure": [
-    "vsphere-esxi-host-failure.html.md.erb"
+    "vsphere-esxi-host-failure"
   ],
   "fault": [
-    "vsphere-network-partition.html.md.erb"
+    "vsphere-network-partition"
   ],
   "filesystem": [
-    "persistent-disk-fs.html.md.erb"
+    "persistent-disk-fs"
   ],
   "flushing": [
-    "flush-arp.html.md.erb"
+    "flush-arp"
   ],
   "garden": [
-    "warden-cpi.html.md.erb"
+    "warden-cpi"
   ],
   "google": [
-    "google-cpi.html.md.erb"
+    "google-cpi"
   ],
   "groups": [
-    "migrated-from.html.md.erb"
+    "migrated-from"
   ],
   "ha": [
-    "vsphere-ha.html.md.erb"
+    "vsphere-ha"
   ],
   "health": [
-    "hm-config.html.md.erb"
+    "hm-config"
   ],
   "homed": [
-    "openstack-multiple-networks.html.md.erb"
+    "openstack-multiple-networks"
   ],
   "host": [
-    "vsphere-esxi-host-failure.html.md.erb"
+    "vsphere-esxi-host-failure"
   ],
   "human": [
-    "openstack-human-readable-vm-names.html.md.erb"
+    "openstack-human-readable-vm-names"
   ],
   "iam": [
-    "aws-iam-instance-profiles.html.md.erb",
-    "aws-iam-users.html.md.erb"
+    "aws-iam-instance-profiles",
+    "aws-iam-users"
   ],
   "index": [
-    "index.html.md.erb"
+    "index"
   ],
   "init": [
-    "install-bosh-init.html.md.erb",
-    "migrate-to-bosh-init.html.md.erb",
-    "using-bosh-init.html.md.erb"
+    "install-bosh-init",
+    "migrate-to-bosh-init",
+    "using-bosh-init"
   ],
   "initializing": [
-    "init-aws.html.md.erb",
-    "init-azure.html.md.erb",
-    "init-openstack.html.md.erb",
-    "init-softlayer.html.md.erb",
-    "init-vcloud.html.md.erb",
-    "init-vsphere.html.md.erb",
-    "init.html.md.erb"
+    "init-aws",
+    "init-azure",
+    "init-openstack",
+    "init-softlayer",
+    "init-vcloud",
+    "init-vsphere",
+    "init"
   ],
   "install": [
-    "install-bosh-init.html.md.erb"
+    "install-bosh-init"
   ],
   "instance": [
-    "aws-iam-instance-profiles.html.md.erb",
-    "aws-instance-storage.html.md.erb",
-    "instance-metadata.html.md.erb",
-    "migrated-from.html.md.erb"
+    "aws-iam-instance-profiles",
+    "aws-instance-storage",
+    "instance-metadata",
+    "migrated-from"
   ],
   "integration": [
-    "director-users-uaa.html.md.erb"
+    "director-users-uaa"
   ],
   "interactions": [
-    "agent-cpi-interactions.html.md.erb"
+    "agent-cpi-interactions"
   ],
   "interface": [
-    "bosh-cli.html.md.erb"
+    "bosh-cli"
   ],
   "job": [
-    "job-lifecycle.html.md.erb"
+    "job-lifecycle"
   ],
   "jobs": [
-    "jobs.html.md.erb"
+    "jobs"
   ],
   "keystone": [
-    "openstack-keystonev2.html.md.erb"
+    "openstack-keystonev2"
   ],
   "lifecycle": [
-    "job-lifecycle.html.md.erb"
+    "job-lifecycle"
   ],
   "light": [
-    "openstack-light-stemcells.html.md.erb"
+    "openstack-light-stemcells"
   ],
   "line": [
-    "bosh-cli.html.md.erb"
+    "bosh-cli"
   ],
   "link": [
-    "links-properties.html.md.erb"
+    "links-properties"
   ],
   "linking": [
-    "links-manual.html.md.erb"
+    "links-manual"
   ],
   "links": [
-    "links.html.md.erb"
+    "links"
   ],
   "lite": [
-    "bosh-lite.html.md.erb"
+    "bosh-lite"
   ],
   "location": [
-    "job-logs.html.md.erb"
+    "job-logs"
   ],
   "locations": [
-    "vm-config.html.md.erb"
+    "vm-config"
   ],
   "logging": [
-    "director-access-events.html.md.erb"
+    "director-access-events"
   ],
   "logs": [
-    "job-logs.html.md.erb"
+    "job-logs"
   ],
   "management": [
-    "director-users.html.md.erb"
+    "director-users"
   ],
   "managing": [
-    "managing-releases.html.md.erb",
-    "managing-stemcells.html.md.erb"
+    "managing-releases",
+    "managing-stemcells"
   ],
   "manifest": [
-    "create-micro-manifest.html.md.erb",
-    "deployment-manifest.html.md.erb",
-    "manifest-v2.html.md.erb",
-    "sample-manifest.html.md.erb"
+    "create-micro-manifest",
+    "deployment-manifest",
+    "manifest-v2",
+    "sample-manifest"
   ],
   "manual": [
-    "cck.html.md.erb",
-    "links-manual.html.md.erb"
+    "cck",
+    "links-manual"
   ],
   "metadata": [
-    "instance-metadata.html.md.erb"
+    "instance-metadata"
   ],
   "micro": [
-    "migrate-to-bosh-init.html.md.erb"
+    "migrate-to-bosh-init"
   ],
   "microbosh": [
-    "create-micro-manifest.html.md.erb",
-    "deploy-microbosh-to-aws.html.md.erb",
-    "deploy-microbosh-to-openstack.html.md.erb",
-    "deploy-microbosh-to-vsphere.html.md.erb",
-    "deploy-microbosh.html.md.erb",
-    "deploy_microbosh_to_vcloud.html.md.erb"
+    "create-micro-manifest",
+    "deploy-microbosh-to-aws",
+    "deploy-microbosh-to-openstack",
+    "deploy-microbosh-to-vsphere",
+    "deploy-microbosh",
+    "deploy_microbosh_to_vcloud"
   ],
   "migrating": [
-    "migrate-to-bosh-init.html.md.erb",
-    "migrated-from.html.md.erb",
-    "vsphere-migrate-datastores.html.md.erb"
+    "migrate-to-bosh-init",
+    "migrated-from",
+    "vsphere-migrate-datastores"
   ],
   "monit": [
-    "vm-monit.html.md.erb"
+    "vm-monit"
   ],
   "monitor": [
-    "hm-config.html.md.erb"
+    "hm-config"
   ],
   "monitoring": [
-    "monitoring.html.md.erb",
-    "vm-monit.html.md.erb"
+    "monitoring",
+    "vm-monit"
   ],
   "multi": [
-    "openstack-multiple-networks.html.md.erb"
+    "openstack-multiple-networks"
   ],
   "names": [
-    "openstack-human-readable-vm-names.html.md.erb"
+    "openstack-human-readable-vm-names"
   ],
   "network": [
-    "vsphere-network-partition.html.md.erb"
+    "vsphere-network-partition"
   ],
   "networking": [
-    "openstack-nova-networking.html.md.erb"
+    "openstack-nova-networking"
   ],
   "networks": [
-    "networks.html.md.erb"
+    "networks"
   ],
   "nova": [
-    "openstack-nova-networking.html.md.erb"
+    "openstack-nova-networking"
   ],
   "openstack": [
-    "deploy-microbosh-to-openstack.html.md.erb",
-    "init-openstack.html.md.erb",
-    "openstack-cpi.html.md.erb",
-    "openstack-self-signed-endpoints.html.md.erb",
-    "setup-openstack.html.md.erb"
+    "deploy-microbosh-to-openstack",
+    "init-openstack",
+    "openstack-cpi",
+    "openstack-self-signed-endpoints",
+    "setup-openstack"
   ],
   "orphaned": [
-    "persistent-disks.html.md.erb"
+    "persistent-disks"
   ],
   "packages": [
-    "packages.html.md.erb"
+    "packages"
   ],
   "partitioning": [
-    "vsphere-network-partition.html.md.erb"
+    "vsphere-network-partition"
   ],
   "permissions": [
-    "director-users-uaa-perms.html.md.erb"
+    "director-users-uaa-perms"
   ],
   "persistent": [
-    "persistent-disk-fs.html.md.erb",
-    "persistent-disks.html.md.erb",
-    "snapshots.html.md.erb"
+    "persistent-disk-fs",
+    "persistent-disks",
+    "snapshots"
   ],
   "plugin": [
-    "migrate-to-bosh-init.html.md.erb"
+    "migrate-to-bosh-init"
   ],
   "post": [
-    "post-deploy.html.md.erb",
-    "post-start.html.md.erb"
+    "post-deploy",
+    "post-start"
   ],
   "postgres": [
-    "director-configure-db.html.md.erb"
+    "director-configure-db"
   ],
   "pre": [
-    "pre-start.html.md.erb"
+    "pre-start"
   ],
   "principles": [
-    "design.html.md.erb"
+    "design"
   ],
   "problems": [
-    "problems.html.md.erb"
+    "problems"
   ],
   "process": [
-    "vm-monit.html.md.erb"
+    "vm-monit"
   ],
   "processes": [
-    "scheduled-procs.html.md.erb"
+    "scheduled-procs"
   ],
   "profiles": [
-    "aws-iam-instance-profiles.html.md.erb"
+    "aws-iam-instance-profiles"
   ],
   "properties": [
-    "links-properties.html.md.erb"
+    "links-properties"
   ],
   "rackhd": [
-    "rackhd-cpi.html.md.erb"
+    "rackhd-cpi"
   ],
   "readable": [
-    "openstack-human-readable-vm-names.html.md.erb"
+    "openstack-human-readable-vm-names"
   ],
   "recent": [
-    "recent.html.md.erb"
+    "recent"
   ],
   "recovery": [
-    "disaster-recovery.html.md.erb",
-    "vsphere-esxi-host-failure.html.md.erb",
-    "vsphere-network-partition.html.md.erb"
+    "disaster-recovery",
+    "vsphere-esxi-host-failure",
+    "vsphere-network-partition"
   ],
   "registry": [
-    "openstack-registry.html.md.erb"
+    "openstack-registry"
   ],
   "release": [
-    "create-release.html.md.erb",
-    "release.html.md.erb",
-    "s3-release-blobstore.html.md.erb"
+    "create-release",
+    "release",
+    "s3-release-blobstore"
   ],
   "releases": [
-    "compiled-releases.html.md.erb",
-    "managing-releases.html.md.erb",
-    "uploading-releases.html.md.erb"
+    "compiled-releases",
+    "managing-releases",
+    "uploading-releases"
   ],
   "removal": [
-    "remove-dev-tools.html.md.erb"
+    "remove-dev-tools"
   ],
   "renaming": [
-    "migrated-from.html.md.erb"
+    "migrated-from"
   ],
   "repair": [
-    "cck.html.md.erb",
-    "resurrector.html.md.erb"
+    "cck",
+    "resurrector"
   ],
   "resources": [
-    "azure-resources.html.md.erb"
+    "azure-resources"
   ],
   "restore": [
-    "director-backup.html.md.erb"
+    "director-backup"
   ],
   "resurrector": [
-    "resurrector.html.md.erb"
+    "resurrector"
   ],
   "runtime": [
-    "runtime-config.html.md.erb"
+    "runtime-config"
   ],
   "s3": [
-    "s3-release-blobstore.html.md.erb"
+    "s3-release-blobstore"
   ],
   "sample": [
-    "sample-manifest.html.md.erb"
+    "sample-manifest"
   ],
   "scheduled": [
-    "scheduled-procs.html.md.erb"
+    "scheduled-procs"
   ],
   "schema": [
-    "deployment-manifest.html.md.erb",
-    "manifest-v2.html.md.erb"
+    "deployment-manifest",
+    "manifest-v2"
   ],
   "script": [
-    "drain.html.md.erb",
-    "post-deploy.html.md.erb",
-    "post-start.html.md.erb",
-    "pre-start.html.md.erb"
+    "drain",
+    "post-deploy",
+    "post-start",
+    "pre-start"
   ],
   "setting": [
-    "s3-release-blobstore.html.md.erb",
-    "setup-aws.html.md.erb",
-    "setup-openstack.html.md.erb",
-    "setup-vsphere.html.md.erb"
+    "s3-release-blobstore",
+    "setup-aws",
+    "setup-openstack",
+    "setup-vsphere"
   ],
   "signed": [
-    "openstack-self-signed-endpoints.html.md.erb"
+    "openstack-self-signed-endpoints"
   ],
   "snapshotting": [
-    "snapshots.html.md.erb"
+    "snapshots"
   ],
   "softlayer": [
-    "init-softlayer.html.md.erb",
-    "softlayer-cpi.html.md.erb"
+    "init-softlayer",
+    "softlayer-cpi"
   ],
   "software": [
-    "deploy-with-bosh.html.md.erb"
+    "deploy-with-bosh"
   ],
   "solve": [
-    "problems.html.md.erb"
+    "problems"
   ],
   "ssl": [
-    "director-certs.html.md.erb"
+    "director-certs"
   ],
   "start": [
-    "post-start.html.md.erb",
-    "pre-start.html.md.erb"
+    "post-start",
+    "pre-start"
   ],
   "stemcell": [
-    "build-stemcell.html.md.erb",
-    "stemcell.html.md.erb"
+    "build-stemcell",
+    "stemcell"
   ],
   "stemcells": [
-    "managing-stemcells.html.md.erb",
-    "openstack-light-stemcells.html.md.erb",
-    "uploading-stemcells.html.md.erb"
+    "managing-stemcells",
+    "openstack-light-stemcells",
+    "uploading-stemcells"
   ],
   "step": [
-    "deploying-step-by-step.html.md.erb"
+    "deploying-step-by-step"
   ],
   "storage": [
-    "aws-instance-storage.html.md.erb",
-    "vsphere-vmotion-support.html.md.erb"
+    "aws-instance-storage",
+    "vsphere-vmotion-support"
   ],
   "structure": [
-    "vm-struct.html.md.erb"
+    "vm-struct"
   ],
   "support": [
-    "vsphere-vmotion-support.html.md.erb"
+    "vsphere-vmotion-support"
   ],
   "tasks": [
-    "director-tasks.html.md.erb"
+    "director-tasks"
   ],
   "terminology": [
-    "terminology.html.md.erb"
+    "terminology"
   ],
   "tips": [
-    "tips.html.md.erb"
+    "tips"
   ],
   "tools": [
-    "remove-dev-tools.html.md.erb"
+    "remove-dev-tools"
   ],
   "trusted": [
-    "trusted-certs.html.md.erb"
+    "trusted-certs"
   ],
   "uaa": [
-    "director-users-uaa-perms.html.md.erb",
-    "director-users-uaa.html.md.erb"
+    "director-users-uaa-perms",
+    "director-users-uaa"
   ],
   "understanding": [
-    "understanding-bosh.html.md.erb"
+    "understanding-bosh"
   ],
   "updates": [
-    "recent.html.md.erb"
+    "recent"
   ],
   "uploading": [
-    "uploading-releases.html.md.erb",
-    "uploading-stemcells.html.md.erb"
+    "uploading-releases",
+    "uploading-stemcells"
   ],
   "user": [
-    "director-users.html.md.erb"
+    "director-users"
   ],
   "users": [
-    "aws-iam-users.html.md.erb"
+    "aws-iam-users"
   ],
   "uuids": [
-    "openstack-human-readable-vm-names.html.md.erb"
+    "openstack-human-readable-vm-names"
   ],
   "v1": [
-    "cli-v2.html.md.erb",
-    "cpi-api-v1.html.md.erb",
-    "director-api-v1.html.md.erb"
+    "cli-v2",
+    "cpi-api-v1",
+    "director-api-v1"
   ],
   "v2": [
-    "cli-v2.html.md.erb",
-    "manifest-v2.html.md.erb",
-    "openstack-keystonev2.html.md.erb"
+    "cli-v2",
+    "manifest-v2",
+    "openstack-keystonev2"
   ],
   "validating": [
-    "openstack-self-signed-endpoints.html.md.erb"
+    "openstack-self-signed-endpoints"
   ],
   "vcloud": [
-    "deploy_microbosh_to_vcloud.html.md.erb",
-    "init-vcloud.html.md.erb",
-    "vcloud-cpi.html.md.erb"
+    "deploy_microbosh_to_vcloud",
+    "init-vcloud",
+    "vcloud-cpi"
   ],
   "virtualbox": [
-    "virtualbox-cpi.html.md.erb"
+    "virtualbox-cpi"
   ],
   "vm": [
-    "openstack-human-readable-vm-names.html.md.erb",
-    "vm-anti-affinity.html.md.erb",
-    "vm-config.html.md.erb",
-    "vm-struct.html.md.erb"
+    "openstack-human-readable-vm-names",
+    "vm-anti-affinity",
+    "vm-config",
+    "vm-struct"
   ],
   "vmotion": [
-    "vsphere-vmotion-support.html.md.erb"
+    "vsphere-vmotion-support"
   ],
   "vms": [
-    "openstack-multiple-networks.html.md.erb"
+    "openstack-multiple-networks"
   ],
   "vsphere": [
-    "deploy-microbosh-to-vsphere.html.md.erb",
-    "init-vsphere.html.md.erb",
-    "setup-vsphere.html.md.erb",
-    "vsphere-cpi.html.md.erb",
-    "vsphere-ha.html.md.erb",
-    "vsphere-network-partition.html.md.erb"
+    "deploy-microbosh-to-vsphere",
+    "init-vsphere",
+    "setup-vsphere",
+    "vsphere-cpi",
+    "vsphere-ha",
+    "vsphere-network-partition"
   ],
   "warden": [
-    "warden-cpi.html.md.erb"
+    "warden-cpi"
   ],
   "workflow": [
-    "basic-workflow.html.md.erb",
-    "workflow.html.md.erb"
+    "basic-workflow",
+    "workflow"
   ],
   "zones": [
-    "azs.html.md.erb"
+    "azs"
   ]
 }
