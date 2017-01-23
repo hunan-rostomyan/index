@@ -1,21 +1,18 @@
-[
-  {
-    "entry": "about",
+{
+  "about": {
     "keywords": [
       "bosh"
     ],
     "title": "What is BOSH?"
   },
-  {
-    "entry": "addons-common",
+  "addons-common": {
     "keywords": [
       "addons",
       "common"
     ],
     "title": "Common Addons"
   },
-  {
-    "entry": "agent-cpi-interactions",
+  "agent-cpi-interactions": {
     "keywords": [
       "agent",
       "cpi",
@@ -23,16 +20,14 @@
     ],
     "title": "Agent-CPI Interactions"
   },
-  {
-    "entry": "aws-cpi",
+  "aws-cpi": {
     "keywords": [
       "aws",
       "cpi"
     ],
     "title": "AWS CPI"
   },
-  {
-    "entry": "aws-iam-instance-profiles",
+  "aws-iam-instance-profiles": {
     "keywords": [
       "iam",
       "instance",
@@ -40,8 +35,7 @@
     ],
     "title": "Using IAM Instance Profiles"
   },
-  {
-    "entry": "aws-iam-users",
+  "aws-iam-users": {
     "keywords": [
       "creating",
       "iam",
@@ -49,16 +43,14 @@
     ],
     "title": "Creating IAM Users"
   },
-  {
-    "entry": "aws-instance-storage",
+  "aws-instance-storage": {
     "keywords": [
       "instance",
       "storage"
     ],
     "title": "Using Instance Storage"
   },
-  {
-    "entry": "azs",
+  "azs": {
     "keywords": [
       "availability",
       "azs",
@@ -67,16 +59,14 @@
     ],
     "title": "First class AZs (Availability Zones)"
   },
-  {
-    "entry": "azure-cpi",
+  "azure-cpi": {
     "keywords": [
       "azure",
       "cpi"
     ],
     "title": "Azure CPI"
   },
-  {
-    "entry": "azure-resources",
+  "azure-resources": {
     "keywords": [
       "azure",
       "creating",
@@ -84,24 +74,21 @@
     ],
     "title": "Creating Azure Resources"
   },
-  {
-    "entry": "basic-workflow",
+  "basic-workflow": {
     "keywords": [
       "basic",
       "workflow"
     ],
     "title": "Basic Workflow"
   },
-  {
-    "entry": "bootstrap",
+  "bootstrap": {
     "keywords": [
       "bootstrapping",
       "environment"
     ],
     "title": "Bootstrapping an environment"
   },
-  {
-    "entry": "bosh-cli",
+  "bosh-cli": {
     "keywords": [
       "bosh",
       "command",
@@ -110,40 +97,35 @@
     ],
     "title": "BOSH Command Line Interface"
   },
-  {
-    "entry": "bosh-components",
+  "bosh-components": {
     "keywords": [
       "bosh",
       "components"
     ],
     "title": "BOSH Components"
   },
-  {
-    "entry": "bosh-lite",
+  "bosh-lite": {
     "keywords": [
       "bosh",
       "lite"
     ],
     "title": "BOSH Lite"
   },
-  {
-    "entry": "build-cpi",
+  "build-cpi": {
     "keywords": [
       "building",
       "cpi"
     ],
     "title": "CPI Building"
   },
-  {
-    "entry": "build-stemcell",
+  "build-stemcell": {
     "keywords": [
       "building",
       "stemcell"
     ],
     "title": "Stemcell Building"
   },
-  {
-    "entry": "cck",
+  "cck": {
     "keywords": [
       "check",
       "cloud",
@@ -152,8 +134,7 @@
     ],
     "title": "Manual repair with Cloud Check"
   },
-  {
-    "entry": "cli-v2",
+  "cli-v2": {
     "keywords": [
       "cli",
       "v1",
@@ -161,24 +142,21 @@
     ],
     "title": "CLI v2 vs v1"
   },
-  {
-    "entry": "cloud-config",
+  "cloud-config": {
     "keywords": [
       "cloud",
       "config"
     ],
     "title": "Cloud Config"
   },
-  {
-    "entry": "compiled-releases",
+  "compiled-releases": {
     "keywords": [
       "compiled",
       "releases"
     ],
     "title": "Compiled Releases"
   },
-  {
-    "entry": "cpi-api-v1",
+  "cpi-api-v1": {
     "keywords": [
       "api",
       "cpi",
@@ -186,8 +164,7 @@
     ],
     "title": "CPI API v1"
   },
-  {
-    "entry": "create-micro-manifest",
+  "create-micro-manifest": {
     "keywords": [
       "creating",
       "deployment",
@@ -196,16 +173,21 @@
     ],
     "title": "Creating a MicroBOSH Deployment Manifest"
   },
-  {
-    "entry": "create-release",
+  "create-release": {
     "keywords": [
       "creating",
       "release"
     ],
     "title": "Creating a Release"
   },
-  {
-    "entry": "deploy-microbosh-to-aws",
+  "deploy-microbosh": {
+    "keywords": [
+      "deploying",
+      "microbosh"
+    ],
+    "title": "Deploying MicroBOSH"
+  },
+  "deploy-microbosh-to-aws": {
     "keywords": [
       "aws",
       "deploying",
@@ -213,8 +195,7 @@
     ],
     "title": "Deploying MicroBOSH to AWS"
   },
-  {
-    "entry": "deploy-microbosh-to-openstack",
+  "deploy-microbosh-to-openstack": {
     "keywords": [
       "deploying",
       "microbosh",
@@ -222,8 +203,7 @@
     ],
     "title": "Deploying MicroBOSH to OpenStack"
   },
-  {
-    "entry": "deploy-microbosh-to-vsphere",
+  "deploy-microbosh-to-vsphere": {
     "keywords": [
       "deploying",
       "microbosh",
@@ -231,16 +211,7 @@
     ],
     "title": "Deploying MicroBOSH to vSphere"
   },
-  {
-    "entry": "deploy-microbosh",
-    "keywords": [
-      "deploying",
-      "microbosh"
-    ],
-    "title": "Deploying MicroBOSH"
-  },
-  {
-    "entry": "deploy-with-bosh",
+  "deploy-with-bosh": {
     "keywords": [
       "bosh",
       "deploying",
@@ -249,8 +220,7 @@
     ],
     "title": "Deploying Distributed Software with BOSH"
   },
-  {
-    "entry": "deploy_microbosh_to_vcloud",
+  "deploy_microbosh_to_vcloud": {
     "keywords": [
       "deploying",
       "microbosh",
@@ -258,31 +228,33 @@
     ],
     "title": "Deploying MicroBOSH on vCloud"
   },
-  {
-    "entry": "deploying-step-by-step",
+  "deploying": {
+    "keywords": [
+      "deploying"
+    ],
+    "title": "Deploying"
+  },
+  "deploying-step-by-step": {
     "keywords": [
       "deploying",
       "step"
     ],
     "title": "Deploying Step-by-step"
   },
-  {
-    "entry": "deploying",
+  "deployment": {
     "keywords": [
-      "deploying"
+      "deployment"
     ],
-    "title": "Deploying"
+    "title": "What is a Deployment?"
   },
-  {
-    "entry": "deployment-basics",
+  "deployment-basics": {
     "keywords": [
       "basics",
       "deployment"
     ],
     "title": "Deployment Basics"
   },
-  {
-    "entry": "deployment-manifest",
+  "deployment-manifest": {
     "keywords": [
       "deployment",
       "manifest",
@@ -290,15 +262,7 @@
     ],
     "title": "Deployment Manifest Schema"
   },
-  {
-    "entry": "deployment",
-    "keywords": [
-      "deployment"
-    ],
-    "title": "What is a Deployment?"
-  },
-  {
-    "entry": "design",
+  "design": {
     "keywords": [
       "bosh",
       "design",
@@ -306,8 +270,7 @@
     ],
     "title": "BOSH Design Principles"
   },
-  {
-    "entry": "director-access-events",
+  "director-access-events": {
     "keywords": [
       "access",
       "event",
@@ -315,8 +278,7 @@
     ],
     "title": "Access Event Logging"
   },
-  {
-    "entry": "director-api-v1",
+  "director-api-v1": {
     "keywords": [
       "api",
       "director",
@@ -324,8 +286,7 @@
     ],
     "title": "Director API v1"
   },
-  {
-    "entry": "director-backup",
+  "director-backup": {
     "keywords": [
       "backup",
       "bosh",
@@ -335,8 +296,7 @@
     ],
     "title": "How to backup and restore a bosh director deployment  ?"
   },
-  {
-    "entry": "director-certs",
+  "director-certs": {
     "keywords": [
       "certificate",
       "configuration",
@@ -345,8 +305,7 @@
     ],
     "title": "Director SSL Certificate Configuration"
   },
-  {
-    "entry": "director-configure-blobstore",
+  "director-configure-blobstore": {
     "keywords": [
       "blobstore",
       "connecting",
@@ -355,8 +314,7 @@
     ],
     "title": "Connecting the Director to an External Blobstore"
   },
-  {
-    "entry": "director-configure-db",
+  "director-configure-db": {
     "keywords": [
       "connecting",
       "database",
@@ -366,32 +324,14 @@
     ],
     "title": "Connecting the Director to an External Postgres Database"
   },
-  {
-    "entry": "director-tasks",
+  "director-tasks": {
     "keywords": [
       "director",
       "tasks"
     ],
     "title": "Director tasks"
   },
-  {
-    "entry": "director-users-uaa-perms",
-    "keywords": [
-      "permissions",
-      "uaa"
-    ],
-    "title": "UAA Permissions"
-  },
-  {
-    "entry": "director-users-uaa",
-    "keywords": [
-      "integration",
-      "uaa"
-    ],
-    "title": "UAA Integration"
-  },
-  {
-    "entry": "director-users",
+  "director-users": {
     "keywords": [
       "director",
       "management",
@@ -399,8 +339,21 @@
     ],
     "title": "User management on the Director"
   },
-  {
-    "entry": "disaster-recovery",
+  "director-users-uaa": {
+    "keywords": [
+      "integration",
+      "uaa"
+    ],
+    "title": "UAA Integration"
+  },
+  "director-users-uaa-perms": {
+    "keywords": [
+      "permissions",
+      "uaa"
+    ],
+    "title": "UAA Permissions"
+  },
+  "disaster-recovery": {
     "keywords": [
       "bosh",
       "disaster",
@@ -408,23 +361,20 @@
     ],
     "title": "Disaster Recovery with BOSH"
   },
-  {
-    "entry": "drain",
+  "drain": {
     "keywords": [
       "drain",
       "script"
     ],
     "title": "Drain Script"
   },
-  {
-    "entry": "events",
+  "events": {
     "keywords": [
       "events"
     ],
     "title": "Events"
   },
-  {
-    "entry": "flush-arp",
+  "flush-arp": {
     "keywords": [
       "arp",
       "explicit",
@@ -432,16 +382,14 @@
     ],
     "title": "Explicit ARP Flushing"
   },
-  {
-    "entry": "google-cpi",
+  "google-cpi": {
     "keywords": [
       "cpi",
       "google"
     ],
     "title": "Google CPI"
   },
-  {
-    "entry": "hm-config",
+  "hm-config": {
     "keywords": [
       "configuring",
       "health",
@@ -449,15 +397,20 @@
     ],
     "title": "Configuring Health Monitor"
   },
-  {
-    "entry": "index",
+  "index": {
     "keywords": [
       "index"
     ],
     "title": "Index"
   },
-  {
-    "entry": "init-aws",
+  "init": {
+    "keywords": [
+      "environment",
+      "initializing"
+    ],
+    "title": "Initializing an environment"
+  },
+  "init-aws": {
     "keywords": [
       "aws",
       "bosh",
@@ -466,8 +419,7 @@
     ],
     "title": "Initializing BOSH environment on AWS"
   },
-  {
-    "entry": "init-azure",
+  "init-azure": {
     "keywords": [
       "azure",
       "bosh",
@@ -476,8 +428,7 @@
     ],
     "title": "Initializing BOSH environment on Azure"
   },
-  {
-    "entry": "init-openstack",
+  "init-openstack": {
     "keywords": [
       "bosh",
       "environment",
@@ -486,8 +437,7 @@
     ],
     "title": "Initializing BOSH environment on OpenStack"
   },
-  {
-    "entry": "init-softlayer",
+  "init-softlayer": {
     "keywords": [
       "bosh",
       "environment",
@@ -496,8 +446,7 @@
     ],
     "title": "Initializing BOSH environment on SoftLayer"
   },
-  {
-    "entry": "init-vcloud",
+  "init-vcloud": {
     "keywords": [
       "bosh",
       "environment",
@@ -506,8 +455,7 @@
     ],
     "title": "Initializing BOSH environment on vCloud"
   },
-  {
-    "entry": "init-vsphere",
+  "init-vsphere": {
     "keywords": [
       "bosh",
       "environment",
@@ -516,16 +464,7 @@
     ],
     "title": "Initializing BOSH environment on vSphere"
   },
-  {
-    "entry": "init",
-    "keywords": [
-      "environment",
-      "initializing"
-    ],
-    "title": "Initializing an environment"
-  },
-  {
-    "entry": "install-bosh-init",
+  "install-bosh-init": {
     "keywords": [
       "bosh",
       "init",
@@ -533,78 +472,68 @@
     ],
     "title": "Install bosh-init"
   },
-  {
-    "entry": "instance-metadata",
+  "instance-metadata": {
     "keywords": [
       "instance",
       "metadata"
     ],
     "title": "Instance Metadata"
   },
-  {
-    "entry": "job-lifecycle",
+  "job-lifecycle": {
     "keywords": [
       "job",
       "lifecycle"
     ],
     "title": "Job Lifecycle"
   },
-  {
-    "entry": "job-logs",
+  "job-logs": {
     "keywords": [
       "location",
       "logs"
     ],
     "title": "Location and use of logs"
   },
-  {
-    "entry": "jobs",
+  "jobs": {
     "keywords": [
       "jobs"
     ],
     "title": "Jobs"
   },
-  {
-    "entry": "links-manual",
+  "links": {
+    "keywords": [
+      "links"
+    ],
+    "title": "Links"
+  },
+  "links-manual": {
     "keywords": [
       "linking",
       "manual"
     ],
     "title": "Manual Linking"
   },
-  {
-    "entry": "links-properties",
+  "links-properties": {
     "keywords": [
       "link",
       "properties"
     ],
     "title": "Link Properties"
   },
-  {
-    "entry": "links",
-    "keywords": [
-      "links"
-    ],
-    "title": "Links"
-  },
-  {
-    "entry": "managing-releases",
+  "managing-releases": {
     "keywords": [
       "managing",
       "releases"
     ],
     "title": "Managing releases"
   },
-  {
-    "entry": "managing-stemcells",
+  "managing-stemcells": {
     "keywords": [
       "managing",
       "stemcells"
     ],
     "title": "Managing stemcells"
   },
-  {
-    "entry": "manifest-v2",
+  "manifest-v2": {
     "keywords": [
       "manifest",
       "schema",
@@ -612,8 +541,7 @@
     ],
     "title": "Manifest v2 Schema"
   },
-  {
-    "entry": "migrate-to-bosh-init",
+  "migrate-to-bosh-init": {
     "keywords": [
       "bosh",
       "cli",
@@ -624,8 +552,7 @@
     ],
     "title": "Migrating to bosh-init from the micro CLI plugin"
   },
-  {
-    "entry": "migrated-from",
+  "migrated-from": {
     "keywords": [
       "groups",
       "instance",
@@ -634,30 +561,26 @@
     ],
     "title": "Renaming/migrating instance groups"
   },
-  {
-    "entry": "monitoring",
+  "monitoring": {
     "keywords": [
       "monitoring"
     ],
     "title": "Monitoring"
   },
-  {
-    "entry": "networks",
+  "networks": {
     "keywords": [
       "networks"
     ],
     "title": "Networks"
   },
-  {
-    "entry": "openstack-cpi",
+  "openstack-cpi": {
     "keywords": [
       "cpi",
       "openstack"
     ],
     "title": "OpenStack CPI"
   },
-  {
-    "entry": "openstack-human-readable-vm-names",
+  "openstack-human-readable-vm-names": {
     "keywords": [
       "human",
       "names",
@@ -667,8 +590,7 @@
     ],
     "title": "Using human-readable VM names instead of UUIDs"
   },
-  {
-    "entry": "openstack-keystonev2",
+  "openstack-keystonev2": {
     "keywords": [
       "api",
       "keystone",
@@ -676,16 +598,14 @@
     ],
     "title": "Using Keystone API v2"
   },
-  {
-    "entry": "openstack-light-stemcells",
+  "openstack-light-stemcells": {
     "keywords": [
       "light",
       "stemcells"
     ],
     "title": "Using Light Stemcells"
   },
-  {
-    "entry": "openstack-multiple-networks",
+  "openstack-multiple-networks": {
     "keywords": [
       "homed",
       "multi",
@@ -693,16 +613,14 @@
     ],
     "title": "Multi-homed VMs"
   },
-  {
-    "entry": "openstack-nova-networking",
+  "openstack-nova-networking": {
     "keywords": [
       "networking",
       "nova"
     ],
     "title": "Using nova-networking"
   },
-  {
-    "entry": "openstack-registry",
+  "openstack-registry": {
     "keywords": [
       "configuration",
       "extended",
@@ -710,8 +628,7 @@
     ],
     "title": "Extended Registry configuration"
   },
-  {
-    "entry": "openstack-self-signed-endpoints",
+  "openstack-self-signed-endpoints": {
     "keywords": [
       "endpoints",
       "openstack",
@@ -720,8 +637,7 @@
     ],
     "title": "Validating self-signed OpenStack endpoints"
   },
-  {
-    "entry": "packages",
+  "packages": {
     "keywords": [
       "bosh",
       "creating",
@@ -729,8 +645,7 @@
     ],
     "title": "Creating BOSH Packages"
   },
-  {
-    "entry": "persistent-disk-fs",
+  "persistent-disk-fs": {
     "keywords": [
       "customizing",
       "disk",
@@ -739,8 +654,7 @@
     ],
     "title": "Customizing Persistent Disk Filesystem"
   },
-  {
-    "entry": "persistent-disks",
+  "persistent-disks": {
     "keywords": [
       "disks",
       "orphaned",
@@ -748,8 +662,7 @@
     ],
     "title": "Persistent and Orphaned Disks"
   },
-  {
-    "entry": "post-deploy",
+  "post-deploy": {
     "keywords": [
       "deploy",
       "post",
@@ -757,8 +670,7 @@
     ],
     "title": "Post-deploy Script"
   },
-  {
-    "entry": "post-start",
+  "post-start": {
     "keywords": [
       "post",
       "script",
@@ -766,8 +678,7 @@
     ],
     "title": "Post-start Script"
   },
-  {
-    "entry": "pre-start",
+  "pre-start": {
     "keywords": [
       "pre",
       "script",
@@ -775,8 +686,7 @@
     ],
     "title": "Pre-start Script"
   },
-  {
-    "entry": "problems",
+  "problems": {
     "keywords": [
       "bosh",
       "problems",
@@ -784,16 +694,14 @@
     ],
     "title": "What Problems Does BOSH Solve?"
   },
-  {
-    "entry": "rackhd-cpi",
+  "rackhd-cpi": {
     "keywords": [
       "cpi",
       "rackhd"
     ],
     "title": "RackHD CPI"
   },
-  {
-    "entry": "recent",
+  "recent": {
     "keywords": [
       "additions",
       "recent",
@@ -801,15 +709,13 @@
     ],
     "title": "Recent Additions and Updates"
   },
-  {
-    "entry": "release",
+  "release": {
     "keywords": [
       "release"
     ],
     "title": "What is a Release?"
   },
-  {
-    "entry": "remove-dev-tools",
+  "remove-dev-tools": {
     "keywords": [
       "compilers",
       "development",
@@ -818,8 +724,7 @@
     ],
     "title": "Removal of compilers and other development tools"
   },
-  {
-    "entry": "resurrector",
+  "resurrector": {
     "keywords": [
       "automatic",
       "repair",
@@ -827,16 +732,14 @@
     ],
     "title": "Automatic repair with Resurrector"
   },
-  {
-    "entry": "runtime-config",
+  "runtime-config": {
     "keywords": [
       "config",
       "runtime"
     ],
     "title": "Runtime Config"
   },
-  {
-    "entry": "s3-release-blobstore",
+  "s3-release-blobstore": {
     "keywords": [
       "blobstore",
       "release",
@@ -845,8 +748,7 @@
     ],
     "title": "Setting up an S3 Release Blobstore"
   },
-  {
-    "entry": "sample-manifest",
+  "sample-manifest": {
     "keywords": [
       "bosh",
       "deployment",
@@ -855,16 +757,14 @@
     ],
     "title": "Sample BOSH Deployment Manifest"
   },
-  {
-    "entry": "scheduled-procs",
+  "scheduled-procs": {
     "keywords": [
       "processes",
       "scheduled"
     ],
     "title": "Scheduled Processes"
   },
-  {
-    "entry": "setup-aws",
+  "setup-aws": {
     "keywords": [
       "aws",
       "bosh",
@@ -872,8 +772,7 @@
     ],
     "title": "Setting Up AWS for BOSH"
   },
-  {
-    "entry": "setup-openstack",
+  "setup-openstack": {
     "keywords": [
       "bosh",
       "openstack",
@@ -881,8 +780,7 @@
     ],
     "title": "Setting Up OpenStack for BOSH"
   },
-  {
-    "entry": "setup-vsphere",
+  "setup-vsphere": {
     "keywords": [
       "bosh",
       "setting",
@@ -890,8 +788,7 @@
     ],
     "title": "Setting Up vSphere for BOSH"
   },
-  {
-    "entry": "snapshots",
+  "snapshots": {
     "keywords": [
       "disk",
       "persistent",
@@ -899,101 +796,88 @@
     ],
     "title": "Persistent disk snapshotting"
   },
-  {
-    "entry": "softlayer-cpi",
+  "softlayer-cpi": {
     "keywords": [
       "cpi",
       "softlayer"
     ],
     "title": "SoftLayer CPI"
   },
-  {
-    "entry": "stemcell",
+  "stemcell": {
     "keywords": [
       "stemcell"
     ],
     "title": "What is a Stemcell?"
   },
-  {
-    "entry": "sysadmin-commands",
+  "sysadmin-commands": {
     "keywords": [
       "cli",
       "commands"
     ],
     "title": "CLI Commands"
   },
-  {
-    "entry": "terminology",
+  "terminology": {
     "keywords": [
       "terminology"
     ],
     "title": "Terminology"
   },
-  {
-    "entry": "tips",
+  "tips": {
     "keywords": [
       "tips"
     ],
     "title": "Tips"
   },
-  {
-    "entry": "trusted-certs",
+  "trusted-certs": {
     "keywords": [
       "certificates",
       "trusted"
     ],
     "title": "Trusted Certificates"
   },
-  {
-    "entry": "understanding-bosh",
+  "understanding-bosh": {
     "keywords": [
       "bosh",
       "understanding"
     ],
     "title": "Understanding BOSH"
   },
-  {
-    "entry": "uploading-releases",
+  "uploading-releases": {
     "keywords": [
       "releases",
       "uploading"
     ],
     "title": "Uploading Releases"
   },
-  {
-    "entry": "uploading-stemcells",
+  "uploading-stemcells": {
     "keywords": [
       "stemcells",
       "uploading"
     ],
     "title": "Uploading Stemcells"
   },
-  {
-    "entry": "using-bosh-init",
+  "using-bosh-init": {
     "keywords": [
       "bosh",
       "init"
     ],
     "title": "Using bosh-init"
   },
-  {
-    "entry": "vcloud-cpi",
+  "vcloud-cpi": {
     "keywords": [
       "cpi",
       "vcloud"
     ],
     "title": "vCloud CPI"
   },
-  {
-    "entry": "virtualbox-cpi",
+  "virtualbox-cpi": {
     "keywords": [
       "cpi",
       "virtualbox"
     ],
     "title": "VirtualBox CPI"
   },
-  {
-    "entry": "vm-anti-affinity",
+  "vm-anti-affinity": {
     "keywords": [
       "affinity",
       "anti",
@@ -1001,8 +885,7 @@
     ],
     "title": "VM Anti-affinity"
   },
-  {
-    "entry": "vm-config",
+  "vm-config": {
     "keywords": [
       "configuration",
       "locations",
@@ -1010,8 +893,7 @@
     ],
     "title": "VM Configuration Locations"
   },
-  {
-    "entry": "vm-monit",
+  "vm-monit": {
     "keywords": [
       "monit",
       "monitoring",
@@ -1019,8 +901,7 @@
     ],
     "title": "Process monitoring with Monit"
   },
-  {
-    "entry": "vm-struct",
+  "vm-struct": {
     "keywords": [
       "bosh",
       "structure",
@@ -1028,16 +909,14 @@
     ],
     "title": "Structure of a BOSH VM"
   },
-  {
-    "entry": "vsphere-cpi",
+  "vsphere-cpi": {
     "keywords": [
       "cpi",
       "vsphere"
     ],
     "title": "vSphere CPI"
   },
-  {
-    "entry": "vsphere-esxi-host-failure",
+  "vsphere-esxi-host-failure": {
     "keywords": [
       "esxi",
       "failure",
@@ -1046,24 +925,21 @@
     ],
     "title": "Recovery from an ESXi Host Failure"
   },
-  {
-    "entry": "vsphere-ha",
+  "vsphere-ha": {
     "keywords": [
       "ha",
       "vsphere"
     ],
     "title": "vSphere HA"
   },
-  {
-    "entry": "vsphere-migrate-datastores",
+  "vsphere-migrate-datastores": {
     "keywords": [
       "datastore",
       "migrating"
     ],
     "title": "Migrating from one datastore to another"
   },
-  {
-    "entry": "vsphere-network-partition",
+  "vsphere-network-partition": {
     "keywords": [
       "fault",
       "network",
@@ -1073,8 +949,7 @@
     ],
     "title": "Recovery from a vSphere Network Partitioning Fault"
   },
-  {
-    "entry": "vsphere-vmotion-support",
+  "vsphere-vmotion-support": {
     "keywords": [
       "drs",
       "storage",
@@ -1083,8 +958,7 @@
     ],
     "title": "Storage DRS and vMotion Support"
   },
-  {
-    "entry": "warden-cpi",
+  "warden-cpi": {
     "keywords": [
       "cpi",
       "garden",
@@ -1092,8 +966,7 @@
     ],
     "title": "Warden/Garden CPI"
   },
-  {
-    "entry": "workflow",
+  "workflow": {
     "keywords": [
       "basic",
       "bosh",
@@ -1101,4 +974,4 @@
     ],
     "title": "Basic BOSH Workflow"
   }
-]
+}

@@ -1,6 +1,5 @@
-[
-  {
-    "entry": "about",
+{
+  "about": {
     "keywords": [
       "addition",
       "additional",
@@ -70,8 +69,7 @@
     ],
     "title": "What is BOSH?"
   },
-  {
-    "entry": "addons-common",
+  "addons-common": {
     "keywords": [
       "3",
       "3232",
@@ -185,8 +183,7 @@
     ],
     "title": "Common Addons"
   },
-  {
-    "entry": "agent-cpi-interactions",
+  "agent-cpi-interactions": {
     "keywords": [
       "0",
       "0800200c9a66",
@@ -516,8 +513,7 @@
     ],
     "title": "Agent-CPI Interactions"
   },
-  {
-    "entry": "aws-cpi",
+  "aws-cpi": {
     "keywords": [
       "0",
       "000",
@@ -910,8 +906,7 @@
     ],
     "title": "AWS CPI"
   },
-  {
-    "entry": "aws-iam-instance-profiles",
+  "aws-iam-instance-profiles": {
     "keywords": [
       "0",
       "1",
@@ -1102,8 +1097,7 @@
     ],
     "title": "Using IAM Instance Profiles"
   },
-  {
-    "entry": "aws-iam-users",
+  "aws-iam-users": {
     "keywords": [
       "1",
       "10",
@@ -1212,8 +1206,7 @@
     ],
     "title": "Creating IAM Users"
   },
-  {
-    "entry": "aws-instance-storage",
+  "aws-instance-storage": {
     "keywords": [
       "0",
       "03",
@@ -1315,8 +1308,7 @@
     ],
     "title": "Using Instance Storage"
   },
-  {
-    "entry": "azs",
+  "azs": {
     "keywords": [
       "0",
       "07dd6e66aed2",
@@ -1492,8 +1484,7 @@
     ],
     "title": "First class AZs (Availability Zones)"
   },
-  {
-    "entry": "azure-cpi",
+  "azure-cpi": {
     "keywords": [
       "0",
       "000",
@@ -1933,8 +1924,7 @@
     ],
     "title": "Azure CPI"
   },
-  {
-    "entry": "azure-resources",
+  "azure-resources": {
     "keywords": [
       "0",
       "01",
@@ -2239,8 +2229,7 @@
     ],
     "title": "Creating Azure Resources"
   },
-  {
-    "entry": "basic-workflow",
+  "basic-workflow": {
     "keywords": [
       "apply",
       "basic",
@@ -2276,8 +2265,7 @@
     ],
     "title": "Basic Workflow"
   },
-  {
-    "entry": "bootstrap",
+  "bootstrap": {
     "keywords": [
       "addition",
       "alternatively",
@@ -2369,8 +2357,7 @@
     ],
     "title": "Bootstrapping an environment"
   },
-  {
-    "entry": "bosh-cli",
+  "bosh-cli": {
     "keywords": [
       "0",
       "2",
@@ -2476,8 +2463,7 @@
     ],
     "title": "BOSH Command Line Interface"
   },
-  {
-    "entry": "bosh-components",
+  "bosh-components": {
     "keywords": [
       "1",
       "abstracts",
@@ -2673,8 +2659,7 @@
     ],
     "title": "BOSH Components"
   },
-  {
-    "entry": "bosh-lite",
+  "bosh-lite": {
     "keywords": [
       "bosh",
       "box",
@@ -2720,8 +2705,7 @@
     ],
     "title": "BOSH Lite"
   },
-  {
-    "entry": "build-cpi",
+  "build-cpi": {
     "keywords": [
       "1",
       "1b7fb8fd",
@@ -2963,8 +2947,7 @@
     ],
     "title": "CPI Building"
   },
-  {
-    "entry": "build-stemcell",
+  "build-stemcell": {
     "keywords": [
       "0",
       "06",
@@ -3186,8 +3169,7 @@
     ],
     "title": "Stemcell Building"
   },
-  {
-    "entry": "cck",
+  "cck": {
     "keywords": [
       "0",
       "00",
@@ -3444,8 +3426,7 @@
     ],
     "title": "Manual repair with Cloud Check"
   },
-  {
-    "entry": "cli-v2",
+  "cli-v2": {
     "keywords": [
       "0",
       "1",
@@ -3641,8 +3622,7 @@
     ],
     "title": "CLI v2 vs v1"
   },
-  {
-    "entry": "cloud-config",
+  "cloud-config": {
     "keywords": [
       "0",
       "000",
@@ -3849,8 +3829,7 @@
     ],
     "title": "Cloud Config"
   },
-  {
-    "entry": "compiled-releases",
+  "compiled-releases": {
     "keywords": [
       "0e06",
       "1",
@@ -3955,8 +3934,7 @@
     ],
     "title": "Compiled Releases"
   },
-  {
-    "entry": "cpi-api-v1",
+  "cpi-api-v1": {
     "keywords": [
       "0",
       "1",
@@ -4384,8 +4362,7 @@
     ],
     "title": "CPI API v1"
   },
-  {
-    "entry": "create-micro-manifest",
+  "create-micro-manifest": {
     "keywords": [
       "0",
       "1",
@@ -4703,8 +4680,7 @@
     ],
     "title": "Creating a MicroBOSH Deployment Manifest"
   },
-  {
-    "entry": "create-release",
+  "create-release": {
     "keywords": [
       "0",
       "1",
@@ -5283,8 +5259,54 @@
     ],
     "title": "Creating a Release"
   },
-  {
-    "entry": "deploy-microbosh-to-aws",
+  "deploy-microbosh": {
+    "keywords": [
+      "advanced",
+      "aws",
+      "bosh",
+      "cloud",
+      "components",
+      "configuration",
+      "configure",
+      "create",
+      "defines",
+      "deploy",
+      "deploying",
+      "deployment",
+      "details",
+      "determines",
+      "distributed",
+      "documentation",
+      "file",
+      "foundry",
+      "html",
+      "iaas",
+      "id",
+      "links",
+      "local",
+      "manifest",
+      "micro",
+      "microbosh",
+      "multi",
+      "openstack",
+      "packages",
+      "properties",
+      "refer",
+      "runs",
+      "single",
+      "software",
+      "specific",
+      "title",
+      "topic",
+      "tutorials",
+      "version",
+      "vm",
+      "vsphere",
+      "yaml"
+    ],
+    "title": "Deploying MicroBOSH"
+  },
+  "deploy-microbosh-to-aws": {
     "keywords": [
       "0",
       "00",
@@ -5602,8 +5624,7 @@
     ],
     "title": "Deploying MicroBOSH to AWS"
   },
-  {
-    "entry": "deploy-microbosh-to-openstack",
+  "deploy-microbosh-to-openstack": {
     "keywords": [
       "0",
       "00",
@@ -5907,8 +5928,7 @@
     ],
     "title": "Deploying MicroBOSH to OpenStack"
   },
-  {
-    "entry": "deploy-microbosh-to-vsphere",
+  "deploy-microbosh-to-vsphere": {
     "keywords": [
       "0",
       "00",
@@ -6119,56 +6139,7 @@
     ],
     "title": "Deploying MicroBOSH to vSphere"
   },
-  {
-    "entry": "deploy-microbosh",
-    "keywords": [
-      "advanced",
-      "aws",
-      "bosh",
-      "cloud",
-      "components",
-      "configuration",
-      "configure",
-      "create",
-      "defines",
-      "deploy",
-      "deploying",
-      "deployment",
-      "details",
-      "determines",
-      "distributed",
-      "documentation",
-      "file",
-      "foundry",
-      "html",
-      "iaas",
-      "id",
-      "links",
-      "local",
-      "manifest",
-      "micro",
-      "microbosh",
-      "multi",
-      "openstack",
-      "packages",
-      "properties",
-      "refer",
-      "runs",
-      "single",
-      "software",
-      "specific",
-      "title",
-      "topic",
-      "tutorials",
-      "version",
-      "vm",
-      "vsphere",
-      "yaml"
-    ],
-    "title": "Deploying MicroBOSH"
-  },
-  {
-    "entry": "deploy-with-bosh",
+  "deploy-with-bosh": {
     "keywords": [
       "0",
       "00",
@@ -6550,8 +6521,7 @@
     ],
     "title": "Deploying Distributed Software with BOSH"
   },
-  {
-    "entry": "deploy_microbosh_to_vcloud",
+  "deploy_microbosh_to_vcloud": {
     "keywords": [
       "1",
       "10",
@@ -6751,8 +6721,86 @@
     ],
     "title": "Deploying MicroBOSH on vCloud"
   },
-  {
-    "entry": "deploying-step-by-step",
+  "deploying": {
+    "keywords": [
+      "0",
+      "1",
+      "10",
+      "10326",
+      "3",
+      "30",
+      "71",
+      "72",
+      "73",
+      "act",
+      "back",
+      "basic",
+      "bosh",
+      "class",
+      "cli",
+      "command",
+      "commands",
+      "complete",
+      "completes",
+      "contents",
+      "create",
+      "created",
+      "creation",
+      "deploy",
+      "deploying",
+      "deployment",
+      "deployments",
+      "director",
+      "failure",
+      "form",
+      "formed",
+      "html",
+      "index",
+      "instance",
+      "instances",
+      "ips",
+      "list",
+      "manifest",
+      "master",
+      "operate",
+      "perspective",
+      "pivotal",
+      "planning",
+      "pool",
+      "pre",
+      "previous",
+      "redis",
+      "referenced",
+      "releases",
+      "represented",
+      "resource",
+      "run",
+      "running",
+      "servers",
+      "set",
+      "single",
+      "slave",
+      "specific",
+      "state",
+      "stemcells",
+      "steps",
+      "success",
+      "table",
+      "task",
+      "terminal",
+      "title",
+      "total",
+      "update",
+      "uploaded",
+      "uploading",
+      "users",
+      "vms",
+      "workspace",
+      "yml"
+    ],
+    "title": "Deploying"
+  },
+  "deploying-step-by-step": {
     "keywords": [
       "1",
       "accessible",
@@ -6908,88 +6956,134 @@
     ],
     "title": "Deploying Step-by-step"
   },
-  {
-    "entry": "deploying",
+  "deployment": {
     "keywords": [
-      "0",
       "1",
-      "10",
-      "10326",
-      "3",
-      "30",
-      "71",
-      "72",
-      "73",
-      "act",
+      "15",
+      "1a",
+      "2972",
+      "9",
+      "agent",
+      "agnostic",
+      "allocated",
+      "attached",
+      "automate",
+      "availability",
+      "aws",
       "back",
-      "basic",
+      "based",
+      "begins",
       "bosh",
-      "class",
-      "cli",
-      "command",
-      "commands",
-      "complete",
-      "completes",
+      "builds",
+      "built",
+      "bump",
+      "called",
+      "capture",
+      "centralized",
+      "cloud",
+      "cluster",
+      "collection",
+      "combination",
+      "configuring",
       "contents",
-      "create",
+      "correct",
       "created",
-      "creation",
-      "deploy",
+      "data",
+      "decides",
+      "deciding",
+      "default",
+      "depending",
+      "deployed",
       "deploying",
       "deployment",
-      "deployments",
+      "describes",
+      "differences",
       "director",
-      "failure",
+      "disks",
+      "east",
+      "explicit",
+      "features",
+      "file",
       "form",
-      "formed",
       "html",
+      "human",
+      "iaas",
+      "image",
+      "images",
+      "includes",
       "index",
+      "information",
       "instance",
-      "instances",
-      "ips",
-      "list",
+      "intro",
+      "introduced",
+      "lines",
+      "m1",
+      "machines",
+      "manage",
+      "managed",
+      "management",
+      "managing",
       "manifest",
-      "master",
-      "operate",
-      "perspective",
-      "pivotal",
-      "planning",
-      "pool",
-      "pre",
+      "named",
+      "needed",
+      "network",
+      "newer",
+      "operating",
+      "operator",
+      "persistent",
+      "placing",
+      "pools",
+      "populated",
       "previous",
+      "previously",
+      "primitives",
+      "process",
+      "properties",
+      "providing",
+      "provisioned",
+      "readable",
       "redis",
-      "referenced",
+      "release",
       "releases",
-      "represented",
+      "replaced",
+      "requested",
       "resource",
-      "run",
-      "running",
-      "servers",
-      "set",
-      "single",
-      "slave",
+      "resources",
+      "retained",
+      "server",
+      "small",
+      "software",
       "specific",
       "state",
+      "stemcell",
       "stemcells",
       "steps",
-      "success",
+      "stored",
+      "system",
       "table",
-      "task",
-      "terminal",
+      "time",
       "title",
-      "total",
+      "track",
+      "tracking",
+      "transformed",
+      "trusty",
+      "type",
+      "ubuntu",
       "update",
+      "updated",
+      "updating",
       "uploaded",
-      "uploading",
-      "users",
+      "user",
+      "version",
+      "versions",
       "vms",
-      "workspace",
-      "yml"
+      "xen",
+      "yaml",
+      "zone"
     ],
-    "title": "Deploying"
+    "title": "What is a Deployment?"
   },
-  {
-    "entry": "deployment-basics",
+  "deployment-basics": {
     "keywords": [
       "0",
       "1",
@@ -7187,8 +7281,7 @@
     ],
     "title": "Deployment Basics"
   },
-  {
-    "entry": "deployment-manifest",
+  "deployment-manifest": {
     "keywords": [
       "0",
       "1",
@@ -7513,136 +7606,7 @@
     ],
     "title": "Deployment Manifest Schema"
   },
-  {
-    "entry": "deployment",
-    "keywords": [
-      "1",
-      "15",
-      "1a",
-      "2972",
-      "9",
-      "agent",
-      "agnostic",
-      "allocated",
-      "attached",
-      "automate",
-      "availability",
-      "aws",
-      "back",
-      "based",
-      "begins",
-      "bosh",
-      "builds",
-      "built",
-      "bump",
-      "called",
-      "capture",
-      "centralized",
-      "cloud",
-      "cluster",
-      "collection",
-      "combination",
-      "configuring",
-      "contents",
-      "correct",
-      "created",
-      "data",
-      "decides",
-      "deciding",
-      "default",
-      "depending",
-      "deployed",
-      "deploying",
-      "deployment",
-      "describes",
-      "differences",
-      "director",
-      "disks",
-      "east",
-      "explicit",
-      "features",
-      "file",
-      "form",
-      "html",
-      "human",
-      "iaas",
-      "image",
-      "images",
-      "includes",
-      "index",
-      "information",
-      "instance",
-      "intro",
-      "introduced",
-      "lines",
-      "m1",
-      "machines",
-      "manage",
-      "managed",
-      "management",
-      "managing",
-      "manifest",
-      "named",
-      "needed",
-      "network",
-      "newer",
-      "operating",
-      "operator",
-      "persistent",
-      "placing",
-      "pools",
-      "populated",
-      "previous",
-      "previously",
-      "primitives",
-      "process",
-      "properties",
-      "providing",
-      "provisioned",
-      "readable",
-      "redis",
-      "release",
-      "releases",
-      "replaced",
-      "requested",
-      "resource",
-      "resources",
-      "retained",
-      "server",
-      "small",
-      "software",
-      "specific",
-      "state",
-      "stemcell",
-      "stemcells",
-      "steps",
-      "stored",
-      "system",
-      "table",
-      "time",
-      "title",
-      "track",
-      "tracking",
-      "transformed",
-      "trusty",
-      "type",
-      "ubuntu",
-      "update",
-      "updated",
-      "updating",
-      "uploaded",
-      "user",
-      "version",
-      "versions",
-      "vms",
-      "xen",
-      "yaml",
-      "zone"
-    ],
-    "title": "What is a Deployment?"
-  },
-  {
-    "entry": "design",
+  "design": {
     "keywords": [
       "apis",
       "applications",
@@ -7734,8 +7698,7 @@
     ],
     "title": "BOSH Design Principles"
   },
-  {
-    "entry": "director-access-events",
+  "director-access-events": {
     "keywords": [
       "0",
       "000",
@@ -7868,8 +7831,7 @@
     ],
     "title": "Access Event Logging"
   },
-  {
-    "entry": "director-api-v1",
+  "director-api-v1": {
     "keywords": [
       "0",
       "00",
@@ -8402,8 +8364,7 @@
     ],
     "title": "Director API v1"
   },
-  {
-    "entry": "director-backup",
+  "director-backup": {
     "keywords": [
       "1307",
       "artifact",
@@ -8514,8 +8475,7 @@
     ],
     "title": "How to backup and restore a bosh director deployment  ?"
   },
-  {
-    "entry": "director-certs",
+  "director-certs": {
     "keywords": [
       "0",
       "1",
@@ -8653,8 +8613,7 @@
     ],
     "title": "Director SSL Certificate Configuration"
   },
-  {
-    "entry": "director-configure-blobstore",
+  "director-configure-blobstore": {
     "keywords": [
       "0",
       "000",
@@ -8739,8 +8698,7 @@
     ],
     "title": "Connecting the Director to an External Blobstore"
   },
-  {
-    "entry": "director-configure-db",
+  "director-configure-db": {
     "keywords": [
       "0",
       "000",
@@ -8807,8 +8765,7 @@
     ],
     "title": "Connecting the Director to an External Postgres Database"
   },
-  {
-    "entry": "director-tasks",
+  "director-tasks": {
     "keywords": [
       "0",
       "001125s",
@@ -8990,134 +8947,122 @@
     ],
     "title": "Director tasks"
   },
-  {
-    "entry": "director-users-uaa-perms",
+  "director-users": {
     "keywords": [
-      "4",
-      "401",
-      "access",
-      "actions",
+      "0",
+      "1",
+      "2999",
+      "add",
       "admin",
-      "anon",
-      "anonymous",
-      "assign",
+      "advance",
+      "advanced",
+      "alternatively",
+      "apply",
+      "audit",
       "authentication",
-      "authorized",
+      "automatic",
       "back",
-      "based",
       "bosh",
-      "capacity",
-      "cck",
+      "built",
+      "cases",
+      "change",
       "class",
-      "command",
-      "commands",
-      "concept",
+      "cli",
+      "code",
+      "communicate",
       "config",
+      "configuration",
+      "configure",
       "configured",
+      "configuring",
       "contents",
+      "continue",
       "create",
       "created",
-      "creates",
-      "debug",
+      "credentials",
+      "custom",
+      "default",
       "delete",
+      "deleted",
       "deploy",
       "deployment",
-      "deployments",
-      "descriptions",
       "details",
-      "diagnose",
       "director",
-      "directors",
-      "doesn",
-      "errand",
-      "error",
-      "errors",
+      "enter",
+      "existing",
       "feature",
-      "fetch",
-      "full",
-      "general",
-      "highly",
+      "health",
+      "hm",
+      "href",
       "html",
-      "http",
       "id",
-      "includes",
       "index",
-      "individual",
-      "information",
-      "ips",
-      "job",
+      "init",
+      "initiates",
+      "installed",
+      "integrate",
+      "integration",
+      "internal",
       "key",
-      "keys",
-      "limited",
       "list",
-      "lock",
+      "local",
       "log",
+      "logged",
+      "login",
       "logs",
-      "manage",
-      "managed",
-      "modify",
-      "names",
+      "longer",
+      "management",
+      "manifest",
+      "method",
+      "micro",
+      "monitor",
       "note",
-      "obtain",
-      "occurs",
-      "part",
-      "permissions",
-      "presence",
-      "private",
-      "problems",
-      "read",
-      "reassign",
-      "recommended",
-      "recreate",
+      "operator",
+      "operators",
+      "password",
+      "planning",
+      "pre",
+      "preconfigured",
+      "properties",
+      "provider",
+      "query",
+      "recommend",
+      "redeploy",
+      "redeploying",
       "release",
-      "releases",
-      "requested",
-      "required",
-      "requires",
-      "resource",
-      "resources",
-      "run",
-      "scopes",
-      "set",
-      "shared",
-      "show",
-      "sign",
-      "signing",
-      "specific",
-      "ssh",
-      "start",
-      "status",
-      "stemcells",
-      "stop",
-      "summaries",
+      "remove",
+      "repair",
+      "requests",
+      "resurrector",
+      "section",
+      "services",
+      "simple",
+      "spec",
+      "strong",
+      "submit",
+      "successfully",
+      "system",
       "table",
-      "targeted",
       "task",
       "tasks",
-      "team",
-      "teams",
+      "terminal",
       "title",
-      "token",
+      "topic",
+      "type",
       "uaa",
-      "uaas",
-      "update",
-      "upload",
+      "updated",
       "user",
       "users",
-      "uuid",
-      "v255",
+      "v177",
+      "ve",
       "verify",
-      "versions",
-      "view",
-      "vitals",
-      "vm",
-      "vms",
-      "warning"
+      "whichever",
+      "work",
+      "yaml"
     ],
-    "title": "UAA Permissions"
+    "title": "User management on the Director"
   },
-  {
-    "entry": "director-users-uaa",
+  "director-users-uaa": {
     "keywords": [
       "0",
       "1",
@@ -9370,124 +9315,132 @@
     ],
     "title": "UAA Integration"
   },
-  {
-    "entry": "director-users",
+  "director-users-uaa-perms": {
     "keywords": [
-      "0",
-      "1",
-      "2999",
-      "add",
+      "4",
+      "401",
+      "access",
+      "actions",
       "admin",
-      "advance",
-      "advanced",
-      "alternatively",
-      "apply",
-      "audit",
+      "anon",
+      "anonymous",
+      "assign",
       "authentication",
-      "automatic",
+      "authorized",
       "back",
+      "based",
       "bosh",
-      "built",
-      "cases",
-      "change",
+      "capacity",
+      "cck",
       "class",
-      "cli",
-      "code",
-      "communicate",
+      "command",
+      "commands",
+      "concept",
       "config",
-      "configuration",
-      "configure",
       "configured",
-      "configuring",
       "contents",
-      "continue",
       "create",
       "created",
-      "credentials",
-      "custom",
-      "default",
+      "creates",
+      "debug",
       "delete",
-      "deleted",
       "deploy",
       "deployment",
+      "deployments",
+      "descriptions",
       "details",
+      "diagnose",
       "director",
-      "enter",
-      "existing",
+      "directors",
+      "doesn",
+      "errand",
+      "error",
+      "errors",
       "feature",
-      "health",
-      "hm",
-      "href",
+      "fetch",
+      "full",
+      "general",
+      "highly",
       "html",
+      "http",
       "id",
+      "includes",
       "index",
-      "init",
-      "initiates",
-      "installed",
-      "integrate",
-      "integration",
-      "internal",
+      "individual",
+      "information",
+      "ips",
+      "job",
       "key",
+      "keys",
+      "limited",
       "list",
-      "local",
+      "lock",
       "log",
-      "logged",
-      "login",
       "logs",
-      "longer",
-      "management",
-      "manifest",
-      "method",
-      "micro",
-      "monitor",
+      "manage",
+      "managed",
+      "modify",
+      "names",
       "note",
-      "operator",
-      "operators",
-      "password",
-      "planning",
-      "pre",
-      "preconfigured",
-      "properties",
-      "provider",
-      "query",
-      "recommend",
-      "redeploy",
-      "redeploying",
+      "obtain",
+      "occurs",
+      "part",
+      "permissions",
+      "presence",
+      "private",
+      "problems",
+      "read",
+      "reassign",
+      "recommended",
+      "recreate",
       "release",
-      "remove",
-      "repair",
-      "requests",
-      "resurrector",
-      "section",
-      "services",
-      "simple",
-      "spec",
-      "strong",
-      "submit",
-      "successfully",
-      "system",
+      "releases",
+      "requested",
+      "required",
+      "requires",
+      "resource",
+      "resources",
+      "run",
+      "scopes",
+      "set",
+      "shared",
+      "show",
+      "sign",
+      "signing",
+      "specific",
+      "ssh",
+      "start",
+      "status",
+      "stemcells",
+      "stop",
+      "summaries",
       "table",
+      "targeted",
       "task",
       "tasks",
-      "terminal",
+      "team",
+      "teams",
       "title",
-      "topic",
-      "type",
+      "token",
       "uaa",
-      "updated",
+      "uaas",
+      "update",
+      "upload",
       "user",
       "users",
-      "v177",
-      "ve",
+      "uuid",
+      "v255",
       "verify",
-      "whichever",
-      "work",
-      "yaml"
+      "versions",
+      "view",
+      "vitals",
+      "vm",
+      "vms",
+      "warning"
     ],
-    "title": "User management on the Director"
+    "title": "UAA Permissions"
   },
-  {
-    "entry": "disaster-recovery",
+  "disaster-recovery": {
     "keywords": [
       "1",
       "20",
@@ -9714,8 +9667,7 @@
     ],
     "title": "Disaster Recovery with BOSH"
   },
-  {
-    "entry": "drain",
+  "drain": {
     "keywords": [
       "0",
       "1",
@@ -9865,8 +9817,7 @@
     ],
     "title": "Drain Script"
   },
-  {
-    "entry": "events",
+  "events": {
     "keywords": [
       "00",
       "0080",
@@ -10133,8 +10084,7 @@
     ],
     "title": "Events"
   },
-  {
-    "entry": "flush-arp",
+  "flush-arp": {
     "keywords": [
       "1",
       "3232",
@@ -10211,8 +10161,7 @@
     ],
     "title": "Explicit ARP Flushing"
   },
-  {
-    "entry": "google-cpi",
+  "google-cpi": {
     "keywords": [
       "0",
       "1",
@@ -10406,8 +10355,7 @@
     ],
     "title": "Google CPI"
   },
-  {
-    "entry": "hm-config",
+  "hm-config": {
     "keywords": [
       "2003",
       "4242",
@@ -10503,8 +10451,7 @@
     ],
     "title": "Configuring Health Monitor"
   },
-  {
-    "entry": "index",
+  "index": {
     "keywords": [
       "access",
       "additions",
@@ -10723,8 +10670,73 @@
     ],
     "title": "Index"
   },
-  {
-    "entry": "init-aws",
+  "init": {
+    "keywords": [
+      "alternatively",
+      "aws",
+      "azure",
+      "bosh",
+      "box",
+      "built",
+      "choice",
+      "choose",
+      "cloudfoundry",
+      "components",
+      "consists",
+      "containers",
+      "cpi",
+      "create",
+      "depending",
+      "deploy",
+      "deployments",
+      "development",
+      "director",
+      "empty",
+      "emulate",
+      "environment",
+      "excellent",
+      "exploration",
+      "frequently",
+      "general",
+      "github",
+      "html",
+      "https",
+      "iaas",
+      "include",
+      "init",
+      "initializing",
+      "latest",
+      "lite",
+      "local",
+      "makes",
+      "manage",
+      "openstack",
+      "orchestrates",
+      "pre",
+      "previous",
+      "recommend",
+      "resources",
+      "single",
+      "softlayer",
+      "stay",
+      "step",
+      "testing",
+      "title",
+      "update",
+      "usage",
+      "vagrant",
+      "vagrantup",
+      "vcloud",
+      "version",
+      "vm",
+      "vms",
+      "vsphere",
+      "warden",
+      "www"
+    ],
+    "title": "Initializing an environment"
+  },
+  "init-aws": {
     "keywords": [
       "0",
       "000",
@@ -11033,8 +11045,7 @@
     ],
     "title": "Initializing BOSH environment on AWS"
   },
-  {
-    "entry": "init-azure",
+  "init-azure": {
     "keywords": [
       "0",
       "000",
@@ -11298,8 +11309,7 @@
     ],
     "title": "Initializing BOSH environment on Azure"
   },
-  {
-    "entry": "init-openstack",
+  "init-openstack": {
     "keywords": [
       "0",
       "000",
@@ -11615,8 +11625,7 @@
     ],
     "title": "Initializing BOSH environment on OpenStack"
   },
-  {
-    "entry": "init-softlayer",
+  "init-softlayer": {
     "keywords": [
       "0",
       "000",
@@ -11849,8 +11858,7 @@
     ],
     "title": "Initializing BOSH environment on SoftLayer"
   },
-  {
-    "entry": "init-vcloud",
+  "init-vcloud": {
     "keywords": [
       "0",
       "000",
@@ -12059,8 +12067,7 @@
     ],
     "title": "Initializing BOSH environment on vCloud"
   },
-  {
-    "entry": "init-vsphere",
+  "init-vsphere": {
     "keywords": [
       "0",
       "000",
@@ -12286,75 +12293,7 @@
     ],
     "title": "Initializing BOSH environment on vSphere"
   },
-  {
-    "entry": "init",
-    "keywords": [
-      "alternatively",
-      "aws",
-      "azure",
-      "bosh",
-      "box",
-      "built",
-      "choice",
-      "choose",
-      "cloudfoundry",
-      "components",
-      "consists",
-      "containers",
-      "cpi",
-      "create",
-      "depending",
-      "deploy",
-      "deployments",
-      "development",
-      "director",
-      "empty",
-      "emulate",
-      "environment",
-      "excellent",
-      "exploration",
-      "frequently",
-      "general",
-      "github",
-      "html",
-      "https",
-      "iaas",
-      "include",
-      "init",
-      "initializing",
-      "latest",
-      "lite",
-      "local",
-      "makes",
-      "manage",
-      "openstack",
-      "orchestrates",
-      "pre",
-      "previous",
-      "recommend",
-      "resources",
-      "single",
-      "softlayer",
-      "stay",
-      "step",
-      "testing",
-      "title",
-      "update",
-      "usage",
-      "vagrant",
-      "vagrantup",
-      "vcloud",
-      "version",
-      "vm",
-      "vms",
-      "vsphere",
-      "warden",
-      "www"
-    ],
-    "title": "Initializing an environment"
-  },
-  {
-    "entry": "install-bosh-init",
+  "install-bosh-init": {
     "keywords": [
       "08",
       "1",
@@ -12458,8 +12397,7 @@
     ],
     "title": "Install bosh-init"
   },
-  {
-    "entry": "instance-metadata",
+  "instance-metadata": {
     "keywords": [
       "00",
       "06",
@@ -12554,8 +12492,7 @@
     ],
     "title": "Instance Metadata"
   },
-  {
-    "entry": "job-lifecycle",
+  "job-lifecycle": {
     "keywords": [
       "1",
       "3302",
@@ -12629,8 +12566,7 @@
     ],
     "title": "Job Lifecycle"
   },
-  {
-    "entry": "job-logs",
+  "job-logs": {
     "keywords": [
       "1",
       "1mb",
@@ -12818,8 +12754,7 @@
     ],
     "title": "Location and use of logs"
   },
-  {
-    "entry": "jobs",
+  "jobs": {
     "keywords": [
       "0",
       "4",
@@ -13025,207 +12960,7 @@
     ],
     "title": "Jobs"
   },
-  {
-    "entry": "links-manual",
-    "keywords": [
-      "1",
-      "3306",
-      "adapter",
-      "address",
-      "adhoc",
-      "amazonaws",
-      "app",
-      "authors",
-      "back",
-      "bosh",
-      "cabsfabuo7yr",
-      "class",
-      "communicates",
-      "components",
-      "conf",
-      "config",
-      "configuration",
-      "configure",
-      "connecting",
-      "consumes",
-      "contents",
-      "continue",
-      "database",
-      "db",
-      "deployed",
-      "deployment",
-      "details",
-      "director",
-      "east",
-      "endpoints",
-      "erb",
-      "explicitly",
-      "exposing",
-      "feature",
-      "full",
-      "groups",
-      "html",
-      "http",
-      "incoming",
-      "index",
-      "instance",
-      "instances",
-      "interface",
-      "introduction",
-      "job",
-      "jobs",
-      "link",
-      "linked",
-      "linking",
-      "links",
-      "managed",
-      "manifest",
-      "manual",
-      "mysql2",
-      "note",
-      "operator",
-      "password",
-      "port",
-      "postgres",
-      "previous",
-      "primary",
-      "properties",
-      "provided",
-      "rds",
-      "release",
-      "server",
-      "single",
-      "table",
-      "talk",
-      "templates",
-      "teswfbquts",
-      "title",
-      "type",
-      "username",
-      "v256",
-      "web",
-      "yaml"
-    ],
-    "title": "Manual Linking"
-  },
-  {
-    "entry": "links-properties",
-    "keywords": [
-      "5",
-      "5432",
-      "access",
-      "accessor",
-      "accessors",
-      "adapter",
-      "addition",
-      "address",
-      "app",
-      "arbitrary",
-      "author",
-      "az",
-      "back",
-      "backwards",
-      "basic",
-      "bosh",
-      "class",
-      "client",
-      "common",
-      "communicates",
-      "compatibility",
-      "conf",
-      "config",
-      "configure",
-      "configuring",
-      "conn",
-      "connect",
-      "connections",
-      "consumes",
-      "contents",
-      "continue",
-      "data",
-      "database",
-      "db",
-      "decides",
-      "default",
-      "defined",
-      "deploy",
-      "deployment",
-      "description",
-      "doesn",
-      "don",
-      "dump",
-      "encoding",
-      "erb",
-      "false",
-      "feature",
-      "finally",
-      "groups",
-      "host",
-      "html",
-      "http",
-      "include",
-      "included",
-      "includes",
-      "including",
-      "incoming",
-      "index",
-      "information",
-      "instance",
-      "instances",
-      "interface",
-      "introduction",
-      "ip",
-      "job",
-      "jobs",
-      "json",
-      "level",
-      "link",
-      "linking",
-      "links",
-      "listen",
-      "manual",
-      "networking",
-      "note",
-      "older",
-      "operator",
-      "password",
-      "pool",
-      "port",
-      "postgres",
-      "previous",
-      "primary",
-      "production",
-      "properties",
-      "property",
-      "provide",
-      "reconnect",
-      "release",
-      "result",
-      "ruby",
-      "section",
-      "server",
-      "sharing",
-      "show",
-      "similarly",
-      "start",
-      "support",
-      "table",
-      "template",
-      "templates",
-      "title",
-      "top",
-      "type",
-      "username",
-      "utf8",
-      "v255",
-      "web",
-      "work",
-      "yaml"
-    ],
-    "title": "Link Properties"
-  },
-  {
-    "entry": "links",
+  "links": {
     "keywords": [
       "0",
       "1",
@@ -13485,8 +13220,204 @@
     ],
     "title": "Links"
   },
-  {
-    "entry": "managing-releases",
+  "links-manual": {
+    "keywords": [
+      "1",
+      "3306",
+      "adapter",
+      "address",
+      "adhoc",
+      "amazonaws",
+      "app",
+      "authors",
+      "back",
+      "bosh",
+      "cabsfabuo7yr",
+      "class",
+      "communicates",
+      "components",
+      "conf",
+      "config",
+      "configuration",
+      "configure",
+      "connecting",
+      "consumes",
+      "contents",
+      "continue",
+      "database",
+      "db",
+      "deployed",
+      "deployment",
+      "details",
+      "director",
+      "east",
+      "endpoints",
+      "erb",
+      "explicitly",
+      "exposing",
+      "feature",
+      "full",
+      "groups",
+      "html",
+      "http",
+      "incoming",
+      "index",
+      "instance",
+      "instances",
+      "interface",
+      "introduction",
+      "job",
+      "jobs",
+      "link",
+      "linked",
+      "linking",
+      "links",
+      "managed",
+      "manifest",
+      "manual",
+      "mysql2",
+      "note",
+      "operator",
+      "password",
+      "port",
+      "postgres",
+      "previous",
+      "primary",
+      "properties",
+      "provided",
+      "rds",
+      "release",
+      "server",
+      "single",
+      "table",
+      "talk",
+      "templates",
+      "teswfbquts",
+      "title",
+      "type",
+      "username",
+      "v256",
+      "web",
+      "yaml"
+    ],
+    "title": "Manual Linking"
+  },
+  "links-properties": {
+    "keywords": [
+      "5",
+      "5432",
+      "access",
+      "accessor",
+      "accessors",
+      "adapter",
+      "addition",
+      "address",
+      "app",
+      "arbitrary",
+      "author",
+      "az",
+      "back",
+      "backwards",
+      "basic",
+      "bosh",
+      "class",
+      "client",
+      "common",
+      "communicates",
+      "compatibility",
+      "conf",
+      "config",
+      "configure",
+      "configuring",
+      "conn",
+      "connect",
+      "connections",
+      "consumes",
+      "contents",
+      "continue",
+      "data",
+      "database",
+      "db",
+      "decides",
+      "default",
+      "defined",
+      "deploy",
+      "deployment",
+      "description",
+      "doesn",
+      "don",
+      "dump",
+      "encoding",
+      "erb",
+      "false",
+      "feature",
+      "finally",
+      "groups",
+      "host",
+      "html",
+      "http",
+      "include",
+      "included",
+      "includes",
+      "including",
+      "incoming",
+      "index",
+      "information",
+      "instance",
+      "instances",
+      "interface",
+      "introduction",
+      "ip",
+      "job",
+      "jobs",
+      "json",
+      "level",
+      "link",
+      "linking",
+      "links",
+      "listen",
+      "manual",
+      "networking",
+      "note",
+      "older",
+      "operator",
+      "password",
+      "pool",
+      "port",
+      "postgres",
+      "previous",
+      "primary",
+      "production",
+      "properties",
+      "property",
+      "provide",
+      "reconnect",
+      "release",
+      "result",
+      "ruby",
+      "section",
+      "server",
+      "sharing",
+      "show",
+      "similarly",
+      "start",
+      "support",
+      "table",
+      "template",
+      "templates",
+      "title",
+      "top",
+      "type",
+      "username",
+      "utf8",
+      "v255",
+      "web",
+      "work",
+      "yaml"
+    ],
+    "title": "Link Properties"
+  },
+  "managing-releases": {
     "keywords": [
       "0",
       "1",
@@ -13665,8 +13596,7 @@
     ],
     "title": "Managing releases"
   },
-  {
-    "entry": "managing-stemcells",
+  "managing-stemcells": {
     "keywords": [
       "1",
       "3232",
@@ -13741,8 +13671,7 @@
     ],
     "title": "Managing stemcells"
   },
-  {
-    "entry": "manifest-v2",
+  "manifest-v2": {
     "keywords": [
       "1",
       "10",
@@ -13979,8 +13908,7 @@
     ],
     "title": "Manifest v2 Schema"
   },
-  {
-    "entry": "migrate-to-bosh-init",
+  "migrate-to-bosh-init": {
     "keywords": [
       "1",
       "aws",
@@ -14068,8 +13996,7 @@
     ],
     "title": "Migrating to bosh-init from the micro CLI plugin"
   },
-  {
-    "entry": "migrated-from",
+  "migrated-from": {
     "keywords": [
       "1",
       "10",
@@ -14186,8 +14113,7 @@
     ],
     "title": "Renaming/migrating instance groups"
   },
-  {
-    "entry": "monitoring",
+  "monitoring": {
     "keywords": [
       "act",
       "actions",
@@ -14305,8 +14231,7 @@
     ],
     "title": "Monitoring"
   },
-  {
-    "entry": "networks",
+  "networks": {
     "keywords": [
       "0",
       "1",
@@ -14532,8 +14457,7 @@
     ],
     "title": "Networks"
   },
-  {
-    "entry": "openstack-cpi",
+  "openstack-cpi": {
     "keywords": [
       "0",
       "000",
@@ -14783,8 +14707,7 @@
     ],
     "title": "OpenStack CPI"
   },
-  {
-    "entry": "openstack-human-readable-vm-names",
+  "openstack-human-readable-vm-names": {
     "keywords": [
       "0",
       "1",
@@ -14844,8 +14767,7 @@
     ],
     "title": "Using human-readable VM names instead of UUIDs"
   },
-  {
-    "entry": "openstack-keystonev2",
+  "openstack-keystonev2": {
     "keywords": [
       "0",
       "1",
@@ -14912,8 +14834,7 @@
     ],
     "title": "Using Keystone API v2"
   },
-  {
-    "entry": "openstack-light-stemcells",
+  "openstack-light-stemcells": {
     "keywords": [
       "1",
       "1234",
@@ -14982,8 +14903,7 @@
     ],
     "title": "Using Light Stemcells"
   },
-  {
-    "entry": "openstack-multiple-networks",
+  "openstack-multiple-networks": {
     "keywords": [
       "1",
       "1450",
@@ -15092,8 +15012,7 @@
     ],
     "title": "Multi-homed VMs"
   },
-  {
-    "entry": "openstack-nova-networking",
+  "openstack-nova-networking": {
     "keywords": [
       "1",
       "add",
@@ -15149,8 +15068,7 @@
     ],
     "title": "Using nova-networking"
   },
-  {
-    "entry": "openstack-registry",
+  "openstack-registry": {
     "keywords": [
       "1",
       "25777",
@@ -15218,8 +15136,7 @@
     ],
     "title": "Extended Registry configuration"
   },
-  {
-    "entry": "openstack-self-signed-endpoints",
+  "openstack-self-signed-endpoints": {
     "keywords": [
       "1",
       "auth",
@@ -15279,8 +15196,7 @@
     ],
     "title": "Validating self-signed OpenStack endpoints"
   },
-  {
-    "entry": "packages",
+  "packages": {
     "keywords": [
       "0",
       "1",
@@ -15421,8 +15337,7 @@
     ],
     "title": "Creating BOSH Packages"
   },
-  {
-    "entry": "persistent-disk-fs",
+  "persistent-disk-fs": {
     "keywords": [
       "000",
       "10",
@@ -15493,8 +15408,7 @@
     ],
     "title": "Customizing Persistent Disk Filesystem"
   },
-  {
-    "entry": "persistent-disks",
+  "persistent-disks": {
     "keywords": [
       "0",
       "024",
@@ -15703,8 +15617,7 @@
     ],
     "title": "Persistent and Orphaned Disks"
   },
-  {
-    "entry": "post-deploy",
+  "post-deploy": {
     "keywords": [
       "0",
       "1",
@@ -15818,8 +15731,7 @@
     ],
     "title": "Post-deploy Script"
   },
-  {
-    "entry": "post-start",
+  "post-start": {
     "keywords": [
       "0",
       "1",
@@ -15931,8 +15843,7 @@
     ],
     "title": "Post-start Script"
   },
-  {
-    "entry": "pre-start",
+  "pre-start": {
     "keywords": [
       "0",
       "1",
@@ -16053,8 +15964,7 @@
     ],
     "title": "Pre-start Script"
   },
-  {
-    "entry": "problems",
+  "problems": {
     "keywords": [
       "ability",
       "accountability",
@@ -16219,8 +16129,7 @@
     ],
     "title": "What Problems Does BOSH Solve?"
   },
-  {
-    "entry": "rackhd-cpi",
+  "rackhd-cpi": {
     "keywords": [
       "agent",
       "back",
@@ -16251,8 +16160,7 @@
     ],
     "title": "RackHD CPI"
   },
-  {
-    "entry": "recent",
+  "recent": {
     "keywords": [
       "access",
       "additions",
@@ -16303,8 +16211,7 @@
     ],
     "title": "Recent Additions and Updates"
   },
-  {
-    "entry": "release",
+  "release": {
     "keywords": [
       "access",
       "addressed",
@@ -16388,8 +16295,7 @@
     ],
     "title": "What is a Release?"
   },
-  {
-    "entry": "remove-dev-tools",
+  "remove-dev-tools": {
     "keywords": [
       "1",
       "3213",
@@ -16447,8 +16353,7 @@
     ],
     "title": "Removal of compilers and other development tools"
   },
-  {
-    "entry": "resurrector",
+  "resurrector": {
     "keywords": [
       "0",
       "1",
@@ -16644,8 +16549,7 @@
     ],
     "title": "Automatic repair with Resurrector"
   },
-  {
-    "entry": "runtime-config",
+  "runtime-config": {
     "keywords": [
       "0",
       "10",
@@ -16786,8 +16690,7 @@
     ],
     "title": "Runtime Config"
   },
-  {
-    "entry": "s3-release-blobstore",
+  "s3-release-blobstore": {
     "keywords": [
       "1",
       "10",
@@ -16944,8 +16847,7 @@
     ],
     "title": "Setting up an S3 Release Blobstore"
   },
-  {
-    "entry": "sample-manifest",
+  "sample-manifest": {
     "keywords": [
       "0",
       "1",
@@ -17042,8 +16944,7 @@
     ],
     "title": "Sample BOSH Deployment Manifest"
   },
-  {
-    "entry": "scheduled-procs",
+  "scheduled-procs": {
     "keywords": [
       "bin",
       "control",
@@ -17072,8 +16973,7 @@
     ],
     "title": "Scheduled Processes"
   },
-  {
-    "entry": "setup-aws",
+  "setup-aws": {
     "keywords": [
       "0",
       "1",
@@ -17391,8 +17291,7 @@
     ],
     "title": "Setting Up AWS for BOSH"
   },
-  {
-    "entry": "setup-openstack",
+  "setup-openstack": {
     "keywords": [
       "0",
       "1",
@@ -17511,8 +17410,7 @@
     ],
     "title": "Setting Up OpenStack for BOSH"
   },
-  {
-    "entry": "setup-vsphere",
+  "setup-vsphere": {
     "keywords": [
       "1",
       "2",
@@ -17599,8 +17497,7 @@
     ],
     "title": "Setting Up vSphere for BOSH"
   },
-  {
-    "entry": "snapshots",
+  "snapshots": {
     "keywords": [
       "0",
       "1",
@@ -17750,8 +17647,7 @@
     ],
     "title": "Persistent disk snapshotting"
   },
-  {
-    "entry": "softlayer-cpi",
+  "softlayer-cpi": {
     "keywords": [
       "0",
       "000",
@@ -17885,8 +17781,7 @@
     ],
     "title": "SoftLayer CPI"
   },
-  {
-    "entry": "stemcell",
+  "stemcell": {
     "keywords": [
       "5",
       "500mb",
@@ -17983,8 +17878,7 @@
     ],
     "title": "What is a Stemcell?"
   },
-  {
-    "entry": "sysadmin-commands",
+  "sysadmin-commands": {
     "keywords": [
       "0",
       "30",
@@ -18231,8 +18125,7 @@
     ],
     "title": "CLI Commands"
   },
-  {
-    "entry": "terminology",
+  "terminology": {
     "keywords": [
       "abstraction",
       "access",
@@ -18518,8 +18411,7 @@
     ],
     "title": "Terminology"
   },
-  {
-    "entry": "tips",
+  "tips": {
     "keywords": [
       "0",
       "00",
@@ -18813,8 +18705,7 @@
     ],
     "title": "Tips"
   },
-  {
-    "entry": "trusted-certs",
+  "trusted-certs": {
     "keywords": [
       "0",
       "1",
@@ -18930,8 +18821,7 @@
     ],
     "title": "Trusted Certificates"
   },
-  {
-    "entry": "understanding-bosh",
+  "understanding-bosh": {
     "keywords": [
       "1",
       "acts",
@@ -19052,8 +18942,7 @@
     ],
     "title": "Understanding BOSH"
   },
-  {
-    "entry": "uploading-releases",
+  "uploading-releases": {
     "keywords": [
       "1",
       "12",
@@ -19156,8 +19045,7 @@
     ],
     "title": "Uploading Releases"
   },
-  {
-    "entry": "uploading-stemcells",
+  "uploading-stemcells": {
     "keywords": [
       "2",
       "2710",
@@ -19243,8 +19131,7 @@
     ],
     "title": "Uploading Stemcells"
   },
-  {
-    "entry": "using-bosh-init",
+  "using-bosh-init": {
     "keywords": [
       "0",
       "00",
@@ -19477,8 +19364,7 @@
     ],
     "title": "Using bosh-init"
   },
-  {
-    "entry": "vcloud-cpi",
+  "vcloud-cpi": {
     "keywords": [
       "0",
       "024",
@@ -19553,8 +19439,7 @@
     ],
     "title": "vCloud CPI"
   },
-  {
-    "entry": "virtualbox-cpi",
+  "virtualbox-cpi": {
     "keywords": [
       "0",
       "048",
@@ -19705,8 +19590,7 @@
     ],
     "title": "VirtualBox CPI"
   },
-  {
-    "entry": "vm-anti-affinity",
+  "vm-anti-affinity": {
     "keywords": [
       "10",
       "101",
@@ -19873,8 +19757,7 @@
     ],
     "title": "VM Anti-affinity"
   },
-  {
-    "entry": "vm-config",
+  "vm-config": {
     "keywords": [
       "1",
       "128mb",
@@ -20032,8 +19915,7 @@
     ],
     "title": "VM Configuration Locations"
   },
-  {
-    "entry": "vm-monit",
+  "vm-monit": {
     "keywords": [
       "0",
       "1",
@@ -20210,8 +20092,7 @@
     ],
     "title": "Process monitoring with Monit"
   },
-  {
-    "entry": "vm-struct",
+  "vm-struct": {
     "keywords": [
       "0",
       "agent",
@@ -20269,8 +20150,7 @@
     ],
     "title": "Structure of a BOSH VM"
   },
-  {
-    "entry": "vsphere-cpi",
+  "vsphere-cpi": {
     "keywords": [
       "0",
       "000",
@@ -20707,8 +20587,7 @@
     ],
     "title": "vSphere CPI"
   },
-  {
-    "entry": "vsphere-esxi-host-failure",
+  "vsphere-esxi-host-failure": {
     "keywords": [
       "082b6635e7cb",
       "1",
@@ -20846,8 +20725,7 @@
     ],
     "title": "Recovery from an ESXi Host Failure"
   },
-  {
-    "entry": "vsphere-ha",
+  "vsphere-ha": {
     "keywords": [
       "180",
       "180s",
@@ -20948,8 +20826,7 @@
     ],
     "title": "vSphere HA"
   },
-  {
-    "entry": "vsphere-migrate-datastores",
+  "vsphere-migrate-datastores": {
     "keywords": [
       "1",
       "16",
@@ -21037,8 +20914,7 @@
     ],
     "title": "Migrating from one datastore to another"
   },
-  {
-    "entry": "vsphere-network-partition",
+  "vsphere-network-partition": {
     "keywords": [
       "0",
       "073648a9",
@@ -21210,8 +21086,7 @@
     ],
     "title": "Recovery from a vSphere Network Partitioning Fault"
   },
-  {
-    "entry": "vsphere-vmotion-support",
+  "vsphere-vmotion-support": {
     "keywords": [
       "accidentally",
       "attached",
@@ -21273,8 +21148,7 @@
     ],
     "title": "Storage DRS and vMotion Support"
   },
-  {
-    "entry": "warden-cpi",
+  "warden-cpi": {
     "keywords": [
       "0",
       "1",
@@ -21435,8 +21309,7 @@
     ],
     "title": "Warden/Garden CPI"
   },
-  {
-    "entry": "workflow",
+  "workflow": {
     "keywords": [
       "1",
       "access",
@@ -21605,4 +21478,4 @@
     ],
     "title": "Basic BOSH Workflow"
   }
-]
+}

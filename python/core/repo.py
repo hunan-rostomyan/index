@@ -22,7 +22,8 @@ class Repository(object):
                 doc = Document(ordinal, filename, content)
                 self.documents.append(doc)
                 self.doc_names[ordinal] = filename
-                ordinal += 1 
+                ordinal += 1
+        return self.documents
 
     def doc_id_to_name(self, doc_id):
         return self.doc_names.get(
